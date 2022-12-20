@@ -54,30 +54,42 @@ function Contenu(){
           <div>
           Here are some watches that men often like.
           <ImagesGrid col={4} row={2}>
-          <a href="https://amzn.to/3G1I3MN">
-            <img
-            src="https://m.media-amazon.com/images/I/81+9JdS7UNL._AC_SX342_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G1I3MN'>AUTOMATIC LAVAREDO</a>
-          <a href="https://amzn.to/3W5XFnX">
-            <img
-            src="https://m.media-amazon.com/images/I/61XEg3nbJuL._AC_SX342_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3W5XFnX'>BENYAR</a>
-          <a href="https://amzn.to/3W9Jb6L">
-            <img
-            src="https://m.media-amazon.com/images/I/61FwtvznZ1L._AC_SX342_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3W9Jb6L'>Emporio Armani</a>
-          <a href="https://amzn.to/3G0JsTF">
-            <img
-            src="https://m.media-amazon.com/images/I/61h5jLtuOVL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G0JsTF'>IDEALROYAL</a>
+            <div>
+              <a href="https://amzn.to/3G1I3MN">
+                <img
+                src="https://m.media-amazon.com/images/I/81+9JdS7UNL._AC_SX342_.jpg">
+                </img>
+              </a>
+              <a href='https://amzn.to/3G1I3MN'>AUTOMATIC LAVAREDO</a>
+            </div>
+
+          <div>
+            <a href="https://amzn.to/3W5XFnX">
+              <img
+              src="https://m.media-amazon.com/images/I/61XEg3nbJuL._AC_SX342_.jpg">
+              </img>
+            </a>
+            <a href='https://amzn.to/3W5XFnX'>BENYAR</a>
+          </div>
+
+          <div>
+            <a href="https://amzn.to/3W9Jb6L">
+              <img
+              src="https://m.media-amazon.com/images/I/61FwtvznZ1L._AC_SX342_.jpg">
+              </img>
+            </a>
+            <a href='https://amzn.to/3W9Jb6L'>Emporio Armani</a>
+          </div>
+
+          <div>
+            <a href="https://amzn.to/3G0JsTF">
+              <img
+              src="https://m.media-amazon.com/images/I/61h5jLtuOVL._AC_SL1500_.jpg">
+              </img>
+            </a>
+            <a href='https://amzn.to/3G0JsTF'>IDEALROYAL</a>
+          </div>
+
           </ImagesGrid>
           </div>
       </Top>
