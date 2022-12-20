@@ -38,7 +38,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>Being more productive can be a challenge, especially when you have a lot on your plate. Here are a few tips that may help you increase your productivity</IntroductionText>
+        <IntroductionText>Baeing more productive can be a challenge, especially when you have a lot on your plate. Here are a few tips that may help you increase your productivity</IntroductionText>
       </div>
     </>
   )
@@ -104,7 +104,7 @@ function Contenu(){
       <Top>
           <TopTitre>7.Stay organized:</TopTitre>
           <p>
-          Keep your workspace clean and clutter-free. This can help you stay focused and reduce stress.
+          Keepa your workspace clean and clutter-free. This can help you stay focused and reduce stress.
           </p>
       </Top>
     </>
