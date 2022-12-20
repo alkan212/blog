@@ -8,7 +8,7 @@ const titre = "Top 10 Crypto to buy now"
 
 
 
-
+import Image from 'next/image'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -18,8 +18,10 @@ import { Blog } from '@/components/Blog'
 import { Top } from '@/components/blog/Top'
 import { TopTitre } from '@/components/blog/TopTitre'
 import { List } from '@/components/blog/List'
+import { Lien } from '@/components/blog/Lien'
 
 import { UserHeader } from '@/components/UserHeader'
+import { iii } from '@/images/background.jpg'
 
 
 import { IntroductionText } from '@/components/blog/IntroductionText'
@@ -94,11 +96,9 @@ function Contenu(){
           </p>
 
           <figure>
-            <img
-              className="w-full rounded-lg"
-              src="https://images.unsplash.com/photo-1626162987518-4fee900a9323?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
-            />
-            <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
+            <Image src="/background.jpg" width={500} height={500} alt="" />
+ 
+            <figcaption><Lien href="#" color={color}>Sagittis scelerisque nulla cursus in enim consectetur quam.</Lien></figcaption>
           </figure>
       </Top>
     </>
@@ -225,7 +225,7 @@ function Content() {
           </svg>
         </div>
       </div>
-      <div className="relative px-4 sm:px-6 lg:px-8">
+      <div className="relative px-4 sm:px-6 lg:px-8 ">
 
 
         {/* Introduction */}
