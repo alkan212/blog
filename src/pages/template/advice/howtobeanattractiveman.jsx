@@ -3,7 +3,7 @@ const titreOnglet = " how to be an attractive man"
 const description = "Tips for maintaining a daily skincare routine, including cleansing, toning, and moisturizing"
 
 const sujet = "advice"
-const titre = "how to be an ugly man"
+const titre = "how to be an attractive man"
 
 
 
