@@ -7,8 +7,8 @@ const titre = " gifts for guitarist"
 
 
 
-
-
+import { VisitButton } from '@/components/button/VisitButton'
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -54,6 +54,7 @@ function Contenu(){
           metronomes are a good gift for musicians because they can be an important tool for practicing and improving their skills. They provide a consistent beat, can be used to break down complex pieces, and come in a variety of styles and prices{' '}
         
           </p>
+          <ImagesGrid col={6}>
           <a href="https://amzn.to/3Yys145">
             <img
             src="https://m.media-amazon.com/images/I/619olDihj0L._AC_SL1200_.jpg">
@@ -72,6 +73,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3WsX6o5'>seiko</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -80,12 +82,14 @@ function Contenu(){
           <p>
           A guitar care kit is a practical gift that every guitarist will appreciate. It might include a guitar stand, cleaning cloths, and other tools to keep their guitar in top shape.
           </p>
+          <ImagesGrid col={2}>
           <a href="https://amzn.to/3jfCzVT">
             <img
             src="https://m.media-amazon.com/images/I/718MoZUmMKL._AC_SL1200_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3jfCzVT'>Elagon</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -93,6 +97,7 @@ function Contenu(){
           <p>
           Guitarists are always looking for new music to play. Consider getting them a book of guitar tabs for their favorite songs or a book of music theory to help them improve their skills.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3BMLTqx">
             <img
             src="https://m.media-amazon.com/images/I/41C6oxWXpAL._SX341_BO1,204,203,200_.jpg">
@@ -105,12 +110,14 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3BL1Gq1'>MICKEY BAKER'S COMPLETE COURSE IN JAZZ GUITAR GUITARE</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.jewely related to music</TopTitre>
           <p>
           Jewelry related to music can be a great gift for pianists because it allows them to show off their passion for music in a personal and creative way. Music-themed jewelry can include a wide variety of items, such as pendants with musical notes or symbols, earrings with piano keys or treble clefs, or bracelets with music-themed charms.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3PzxNyy">
             <img
             src="https://m.media-amazon.com/images/I/619MJHSsWJL._AC_SX679_.jpg">
@@ -129,12 +136,14 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3WqMRk7'> Maigendoo </a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>5.guitar accessories</TopTitre>
           <p>
           Guitarists can always use new picks, strings, straps, and other accessories. Consider getting them a set of their favorite brand of strings or a new guitar strap.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3WtdAMZ">
             <img
             src="https://m.media-amazon.com/images/I/51JJIcjiB8L._AC_SL1000_.jpg">
@@ -153,6 +162,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3WqlcQd'> WiNGO Guitar Capo </a>
+          </ImagesGrid>
       </Top>
     </>
   )

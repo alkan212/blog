@@ -8,7 +8,7 @@ const titre = "4 gifts for pianist"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -54,6 +54,7 @@ function Contenu(){
           metronomes are a good gift for musicians because they can be an important tool for practicing and improving their skills. They provide a consistent beat, can be used to break down complex pieces, and come in a variety of styles and prices{' '}
         
           </p>
+          <ImagesGrid col={6} >
           <a href="https://amzn.to/3Yys145">
             <img
             src="https://m.media-amazon.com/images/I/619olDihj0L._AC_SL1200_.jpg">
@@ -72,6 +73,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3WsX6o5'>seiko</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -93,18 +95,21 @@ function Contenu(){
           <p>
           Score books can be a great gift for a pianist for several reasons. First and foremost, score books provide a convenient and organized way for pianists to access and play a wide variety of music. Score books typically contain collections of sheet music for various pieces, arranged by genre, composer, or difficulty level. This allows pianists to easily find and play the music they are interested in, whether they are looking for classical repertoire, popular songs, or original compositions
           </p>
+          <ImagesGrid col={3}>
           <a href="https://amzn.to/3W95E3A">
             <img
             src="https://m.media-amazon.com/images/I/61YH4ZroncL._AC_SL1166_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3W95E3A'>fur klavier</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.jewely related to music</TopTitre>
           <p>
           Jewelry related to music can be a great gift for pianists because it allows them to show off their passion for music in a personal and creative way. Music-themed jewelry can include a wide variety of items, such as pendants with musical notes or symbols, earrings with piano keys or treble clefs, or bracelets with music-themed charms.
           </p>
+          <ImagesGrid col={6}>
           <a href="https://amzn.to/3PzxNyy">
             <img
             src="https://m.media-amazon.com/images/I/619MJHSsWJL._AC_SX679_.jpg">
@@ -123,6 +128,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3WqMRk7'> Maigendoo </a>
+          </ImagesGrid>
       </Top>
     </>
   )

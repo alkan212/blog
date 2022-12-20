@@ -8,7 +8,7 @@ const titre = "how to have a dog that smells good"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -54,12 +54,14 @@ function Contenu(){
           Regular grooming is essential for maintaining a clean and fresh-smelling dog. This includes bathing your dog regularly (depending on their breed and lifestyle, this could be anywhere from once a week to once a month), brushing their coat, and trimming their nails.you can do it your self with that kis{' '}
         
           </p>
+          <ImagesGrid col={2}>
           <a href="https://amzn.to/3WBs9hL">
             <img
             src="https://m.media-amazon.com/images/I/51suyJbNhZL._SY498_BO1,204,203,200_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3WBs9hL'>Freewindo Kit</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -68,12 +70,14 @@ function Contenu(){
           <p>
           If your dog has an accident inside, be sure to clean it up thoroughly to prevent odors from lingering. Use an enzymatic cleaner specifically designed to neutralize pet odors.
           </p>
+          <ImagesGrid col={2}>
           <a href="https://amzn.to/3YFCScP">
             <img
             src="https://m.media-amazon.com/images/I/71W2l-yWryL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3YFCScP'>enzymatic cleaner</a>
+          </ImagesGrid>
 
       </Top>
 
@@ -81,12 +85,14 @@ function Contenu(){
           <TopTitre>3.Keep your dog's living space clean</TopTitre>
           <p>
           Regularly wash your dog's bedding, toys, and any other items they come into contact with to keep odors at bay.you can also perfume the dog.
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3G6hPJ7">
             <img
             src="https://m.media-amazon.com/images/I/51riBYQtnoL._AC_SL1000_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3G6hPJ7'>Espree</a>
+          </ImagesGrid>
           </p>
       </Top>
       <Top>
@@ -94,12 +100,14 @@ function Contenu(){
           <p>
           Drinking plenty of water can help flush out toxins and prevent bad breath. Make sure your dog has access to clean water at all times and encourage them to drink frequently.
           </p>
+          <ImagesGrid col={2}>
           <a href="https://amzn.to/3YA08J9">
             <img
             src="https://m.media-amazon.com/images/I/71H0rc2XHiL._AC_SL1000_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3YA08J9'>Ferplast</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>5.Address any health issues</TopTitre>

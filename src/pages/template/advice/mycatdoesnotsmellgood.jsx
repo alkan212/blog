@@ -8,7 +8,7 @@ const titre = "how to have a cat that smells good"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -54,6 +54,7 @@ function Contenu(){
           Regular grooming is essential for maintaining a clean and fresh-smelling cat. This includes brushing or combing your cat's coat (depending on the length and type of their fur), and trimming their nails. Grooming can also help prevent matting, which can trap odors.you can do it your self with that kis{' '}
         
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3G5Vo6D">
             <img
             src="https://m.media-amazon.com/images/I/71pMj5nohaL._AC_SL1500_.jpg">
@@ -66,6 +67,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3jhf0fc'>short-haired cat</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -74,11 +76,15 @@ function Contenu(){
           <p>
           A dirty litter box can be a major source of bad smells. Be sure to scoop it at least once a day, and completely empty and clean it out once a week. Use a litter deodorizer if needed, and consider switching to a litter brand that is formulated to control odors.
           </p>
+          <ImagesGrid col={2}>
           <a href="https://amzn.to/3G6GGfE">
             <img
             src="https://m.media-amazon.com/images/I/81tgmC1l0fL._AC_SL1500_.jpg">
             </img>
+
           </a>
+          <a href='https://amzn.to/3G6GGfE'>covered litter</a>
+          </ImagesGrid>
 
 
       </Top>
@@ -87,12 +93,14 @@ function Contenu(){
           <TopTitre>3.Keep your cat's living space clean</TopTitre>
           <p>
           Regularly wash your cat's bedding, toys, and any other items they come into contact with to keep odors at bay.you can also perfume the cat.
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3PJSzf2">
             <img
             src="https://m.media-amazon.com/images/I/71nHYSA30jL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3PJSzf2'>BEAPHAR</a>
+          </ImagesGrid>
           </p>
       </Top>
       <Top>

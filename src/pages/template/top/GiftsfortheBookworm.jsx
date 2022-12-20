@@ -8,7 +8,7 @@ const titre = "5 gifts for the bookworms"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -54,12 +54,14 @@ function Contenu(){
           This may seem obvious, but bookworms can never have too many books! Consider getting them a new release or a classic that they've always wanted to read.{' '}
         
           </p>
+          <ImagesGrid col={3}>
           <a href="https://amzn.to/3G3plEu">
             <img
             src="https://m.media-amazon.com/images/I/71rOzy4cyAL.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3G3plEu'>Harry Potter</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -68,18 +70,20 @@ function Contenu(){
           <p>
           Bookmarks are a practical and thoughtful gift for bookworms. Consider getting them a bookmark with a quote from their favorite book or a bookmark with a design that reflects their interests.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3uXE6T5">
             <img
             src="https://m.media-amazon.com/images/I/81yqi4yECmL._AC_SL1500_.jpg">
             </img>
           </a>
-          <a href='https://amzn.to/3uXE6T5'>Paladone Harry Potter Hedwig Bookmark</a>
+          <a href='https://amzn.to/3uXE6T5'>Hedwig Bookmark</a>
           <a href="https://amzn.to/3W9uiRU">
             <img
             src="https://m.media-amazon.com/images/I/71X0BEYAkxL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3W9uiRU'>Toirxarn Metal Feather Bookmark</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -87,6 +91,7 @@ function Contenu(){
           <p>
           Reading lights are a great gift for bookworms because they allow them to read late into the night without disturbing others. There are many different styles of reading lights available, so you can choose one that fits their personality and decor.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3FDnZyP">
             <img
             src="https://m.media-amazon.com/images/I/61VJd67Xa+L._AC_SL1500_.jpg">
@@ -99,6 +104,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3BHAMPO'>Luxjet</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.E-reader</TopTitre>
@@ -117,6 +123,7 @@ function Contenu(){
           <p>
           Bookworms will love gifts that show off their love of literature. Consider getting them a book-themed mug, t-shirt, or piece of jewelry.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3hC6W8g">
             <img
             src="https://m.media-amazon.com/images/I/61GY1A6fdKL._AC_SL1001_.jpg">
@@ -128,7 +135,8 @@ function Contenu(){
             src="https://m.media-amazon.com/images/I/61drHiKOjXL._AC_SX679_.jpg">
             </img>
           </a>
-          <a href='https://amzn.to/3Wf7CzO'>Miniblings Silver Book LocketBAICHUN</a>
+          <a href='https://amzn.to/3Wf7CzO'>Miniblings Silver Book </a>
+          </ImagesGrid>
       </Top>
     </>
   )
