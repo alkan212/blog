@@ -8,7 +8,7 @@ const titre = "how to get rid of a pimple"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -62,12 +62,14 @@ function Contenu(){
           <p>
           After cleansing, use a toner to help restore your skin's pH balance and remove any remaining impurities. Look for toners that contain ingredients such as glycerin or aloe vera to help moisturize and soothe the skin.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3v3tHVU">
             <img
             src="https://m.media-amazon.com/images/I/71u96tQdspL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3v3tHVU'>toner</a>
+          </ImagesGrid>
 
       </Top>
 
@@ -76,36 +78,42 @@ function Contenu(){
           <p>
           Apply a moisturizer to help hydrate and protect the skin. Choose a moisturizer that is appropriate for your skin type and any specific concerns you may have, such as oily or acne-prone skin.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3YAIiWd">
             <img
             src="https://m.media-amazon.com/images/I/51rcI-TbYjL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3YAIiWd'>moistuzer</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.sunscreen</TopTitre>
           <p>
           Use a sunscreen with an SPF of at least 30 every day, even on cloudy days, to protect your skin from damaging UV rays. Reapply sunscreen every 2 hours or after swimming or sweating.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3FIONxT">
             <img
             src="https://m.media-amazon.com/images/I/41n298Rm3gL._AC_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3FIONxT'>Roche Anth Uv</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>5.Exfoliate</TopTitre>
           <p>
           Exfoliate your skin once or twice a week to remove dead skin cells and improve the texture and appearance of your skin. Use a gentle exfoliator, such as a scrub or enzyme peel, to avoid damaging or irritating the skin.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3YCTEJm">
             <img
             src="https://m.media-amazon.com/images/I/61jy4NdM7RL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3YCTEJm'>Paula's Choice</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>6.don't touch</TopTitre>

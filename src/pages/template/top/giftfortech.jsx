@@ -8,7 +8,7 @@ const titre = "5 gifts for a technology lover"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -54,6 +54,7 @@ function Contenu(){
           Smart home devices like a smart thermostat, smart lighting, or a smart security system can be a great gift for someone who loves to stay connected and in control of their home.{' '}
         
           </p>
+          <ImagesGrid col={6}>
           <a href="https://amzn.to/3BL78sH">
             <img
             src="https://m.media-amazon.com/images/I/61VkzvlBTOL._AC_SL1500_.jpg">
@@ -72,6 +73,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3HIAgEX'>Wolf-Guard</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -80,6 +82,7 @@ function Contenu(){
           <p>
           A virtual reality headset can be a great gift for someone who loves to experience new technologies and immersive experiences.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3jfjp28">
             <img
             src="https://m.media-amazon.com/images/I/51yB98vFpSL._AC_SL1500_.jpg">
@@ -92,6 +95,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3FZJ4VI'>FIYAPOO</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -99,6 +103,7 @@ function Contenu(){
           <p>
           A smartwatch can be a useful and stylish gift for someone who loves technology and staying connected
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3G0JsTF">
             <img
             src="https://m.media-amazon.com/images/I/61h5jLtuOVL._AC_SL1500_.jpg">
@@ -111,6 +116,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3Wv7Xh8'>AGPTEK Women's</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.E-reader</TopTitre>
@@ -129,6 +135,7 @@ function Contenu(){
           <p>
           A drone can be a fun and unique gift for someone who loves technology and enjoys exploring new perspectives.
           </p>
+          <ImagesGrid col={4}>
           <a href="https://amzn.to/3hFkIHd">
             <img
             src="https://m.media-amazon.com/images/I/61Y1P6uIRFL._AC_SL1500_.jpg">
@@ -141,6 +148,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3PAIP6q'>BAICHUN</a>
+          </ImagesGrid>
       </Top>
     </>
   )

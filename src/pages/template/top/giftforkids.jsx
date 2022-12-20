@@ -8,7 +8,7 @@ const titre = "5 gifts for kids"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -56,6 +56,7 @@ function Contenu(){
 Playing an instrument can also help kids to develop fine motor skills and coordination, and it can be a great way for them to express themselves and connect with others through music. Finally, learning to play an instrument can be a great way for kids to relax and de-stress, as it can be a soothing and meditative activity. Overall, a musical instrument can be a wonderful gift that keeps on giving, as it can provide kids with a lifetime of enjoyment and personal growth{' '}
         
           </p>
+          <ImagesGrid col={6} row={1}>
           <a href="https://amzn.to/3PCRGEK">
             <img
             src="https://m.media-amazon.com/images/I/71zbhxqqMAS._AC_SL1500_.jpg">
@@ -74,6 +75,7 @@ Playing an instrument can also help kids to develop fine motor skills and coordi
             </img>
           </a>
           <a href='https://amzn.to/3jjw8kk'>Alesis Turbo Mesh Kit</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -82,6 +84,7 @@ Playing an instrument can also help kids to develop fine motor skills and coordi
           <p>
           Board games and puzzles can be great gifts for kids for several reasons. First, they provide a fun and engaging activity that kids can enjoy on their own or with others. This can be especially useful during the pandemic when social distancing measures may limit in-person play dates or other activities. Board games and puzzles can also help to promote cognitive development in kids by challenging their problem-solving skills, strategic thinking, and decision-making abilities.
           </p>
+          <ImagesGrid col={4} row={1}>
           <a href="https://amzn.to/3HNSvsG">
             <img
             src="https://m.media-amazon.com/images/I/81HjTEb9Z6L._AC_SL1500_.jpg">
@@ -94,6 +97,7 @@ Playing an instrument can also help kids to develop fine motor skills and coordi
             </img>
           </a>
           <a href='https://amzn.to/3V7Ml9x'>JUMANJI</a>
+          </ImagesGrid>
       </Top>
 
       <Top>
@@ -101,6 +105,7 @@ Playing an instrument can also help kids to develop fine motor skills and coordi
           <p>
           Legos are also a versatile toy that can be enjoyed by kids of all ages. There are different Lego sets available that cater to different interests and skill levels, so kids can continue to challenge themselves as they grow and develop. Legos can be a great toy for kids to play with on their own or with others, as they can build and play together, fostering teamwork and collaboration. Overall, Legos can be a great gift that provides kids with endless hours of fun and learning.
           </p>
+          <ImagesGrid col={4} row={1}>
           <a href="https://amzn.to/3FDK1S4">
             <img
             src="https://m.media-amazon.com/images/I/61X1rcPCh3L._AC_SL1005_.jpg">
@@ -113,6 +118,7 @@ Playing an instrument can also help kids to develop fine motor skills and coordi
             </img>
           </a>
           <a href='https://amzn.to/3WsCxbl'>classic</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.video games</TopTitre>
@@ -133,6 +139,7 @@ Overall, video games can be a great gift for kids that provides a balance of fun
           <p>
           Science kits can also be a lot of fun for kids, as they often include activities or experiments that kids can perform on their own or with others. This can be a great way for kids to learn and have fun at the same time. Science kits can also be a great way for kids to learn about the scientific method and how to conduct experiments, which can be valuable skills for later in life.
           </p>
+          <ImagesGrid col={4} row={1}>
           <a href="https://amzn.to/3v2cBaQ">
             <img
             src="https://m.media-amazon.com/images/I/91AQBSotB2L._AC_SL1500_.jpg">
@@ -146,6 +153,7 @@ Overall, video games can be a great gift for kids that provides a balance of fun
           </a>
           <a href='https://amzn.to/3G5oCCW'>
 Levenhuk LabZZ MTB3 Starter Kit for Kids</a>
+  </ImagesGrid>
       </Top>
     </>
   )

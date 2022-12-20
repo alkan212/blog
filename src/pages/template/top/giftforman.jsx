@@ -8,7 +8,7 @@ const titre = "5 gifts to give to a man"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -49,12 +49,12 @@ function Contenu(){
     <>
       <Top>
           <TopTitre>1.watches</TopTitre>
-
           <p>
           Watches have long been a staple accessory for men, serving not only as a practical tool for keeping track of time, but also as a fashion statement and symbol of status.If he already has one it is still a good gift because watches for man are like bag for women we love having a lot of them.{' '}
           </p>
-          <p>
+          <div>
           Here are some watches that men often like.
+          <ImagesGrid col={4} row={2}>
           <a href="https://amzn.to/3G1I3MN">
             <img
             src="https://m.media-amazon.com/images/I/81+9JdS7UNL._AC_SX342_.jpg">
@@ -79,7 +79,8 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3G0JsTF'>IDEALROYAL</a>
-          </p>
+          </ImagesGrid>
+          </div>
       </Top>
 
       <Top>
@@ -144,10 +145,12 @@ function Contenu(){
 
       <Top>
           <TopTitre>3.cardholder</TopTitre>
-
+          
           <p>
           cardholders are a great gift for men because they are practical, stylish, durable, and versatile. They provide a convenient way to keep cards organized and can be used for a wide range of purposes.{' '}
           </p>
+          <ImagesGrid col={4} row={2}>
+
           <a href="https://amzn.to/3PBpv9i">
             <img
             src="https://m.media-amazon.com/images/I/91YmIz5wHYL._AC_SL1500_.jpg">
@@ -173,6 +176,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3hyzTC6'>NANIMOO</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.car accessories</TopTitre>
@@ -180,6 +184,7 @@ function Contenu(){
           <p>
           car accessories can make good gifts for men because they can be both practical and enjoyable. They can help to keep a car clean and organized, allow men to personalize their car, provide entertainment, and improve safety{' '}
           </p>
+          <ImagesGrid col={4} row={2}>
           <a href="https://amzn.to/3v0DU5u">
             <img
             src="https://m.media-amazon.com/images/I/71jcgA7iHAL._AC_SL1500_.jpg">
@@ -205,6 +210,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3hBs2DW'>dash cam</a>
+          </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>5.business case</TopTitre>
@@ -212,6 +218,7 @@ function Contenu(){
           <p>
           laptop cases can be good gifts for men because they can help to protect a laptop, add a touch of style, provide convenience, and be versatile. They are a practical and functional gift that can be used on a daily basis.{' '}
           </p>
+          <ImagesGrid col={4} row={2}>
           <a href="https://amzn.to/3G3oOma">
             <img
             src="https://m.media-amazon.com/images/I/71PWO9lhxCL._AC_SL1200_.jpg">
@@ -237,6 +244,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3FGva9s'>Alfheim</a>
+          </ImagesGrid>
       </Top>
     </>
     

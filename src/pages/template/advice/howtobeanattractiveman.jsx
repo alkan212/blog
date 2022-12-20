@@ -8,7 +8,7 @@ const titre = "how to be an ugly man"
 
 
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
@@ -62,6 +62,7 @@ function Contenu(){
           <p>
           A good perfume can help a man make a good first impression. A pleasant scent can leave a positive impression on those around him, especially in professional or social situations.
           </p>
+          <ImagesGrid col={6}>
           <a href="https://amzn.to/3j37dl0">
             <img
             src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg">
@@ -80,6 +81,7 @@ function Contenu(){
             </img>
           </a>
           <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
+          </ImagesGrid>
 
       </Top>
 
@@ -104,14 +106,16 @@ function Contenu(){
       <Top>
           <TopTitre>5.hygiene</TopTitre>
           <p>
-          Practice good hygiene, including brushing and flossing regularly, using deodorant, and keeping your hair clean and well-groomed. a good dental hygiene makes you more attractive use an electric toothbrush 
+          Practice good hygiene, including brushing and flossing regularly, using deodorant, and keeping your hair clean and well-groomed. a good dental hygiene makes you more attractive use an electric toothbrush.
           </p>
+          <ImagesGrid col={2}>
           <a href="https://amzn.to/3WbZ9Nx">
             <img
             src="https://m.media-amazon.com/images/I/81IifBHmAcL._AC_SL1500_.jpg">
             </img>
           </a>
           <a href='https://amzn.to/3WbZ9Nx'>Oral-B</a>
+          </ImagesGrid>
       </Top>
     </>
   )
