@@ -3,10 +3,13 @@ import Link from 'next/link'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import { Newsletter } from '@/components/Newsletter'
+
 
 export function Footer() {
   return (
     <footer className="bg-slate-50">
+      <Newsletter />
       <Container>
         <div className="py-16">
           <div className='flex justify-center'>

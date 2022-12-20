@@ -1,4 +1,4 @@
-
+import { Image } from "@/components/Image"
 
 export function UserHeader() {
   return (
@@ -6,7 +6,7 @@ export function UserHeader() {
       <div className="flex items-start space-x-5">
         <div className="flex-shrink-0">
           <div className="relative">
-            <img
+            <Image
               className="h-16 w-16 rounded-full"
               src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
               alt=""

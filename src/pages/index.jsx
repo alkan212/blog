@@ -4,7 +4,6 @@ import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Ttt } from '@/components/Ttt'
 import { Blog } from '@/components/Blog'
 import { UserHeader } from '@/components/UserHeader'
 
@@ -20,7 +19,6 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <Ttt />
         <Blog />
       </main>
       <Footer />

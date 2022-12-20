@@ -1,5 +1,52 @@
+import { useState } from "react";
+
+
+
+
+function send_post(path, data=undefined, func=noneFunction){
+
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("POST", path, true);
+  xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+          /*var msg = JSON.parse(this.responseText); */
+          
+          func(this.responseText);
+      };
+  }
+
+  if(data !== undefined){
+      let t = ""
+      for(let obj of Object.keys(data)){
+          t = t + "&" + obj + "=" + data[obj];
+      }
+  
+      xmlhttp.send(t);
+
+  }else{
+      xmlhttp.send();
+  }
+
+}
+
 
 export function Newsletter() {
+
+  var email = "";
+
+  function setEmail(e){
+    email = e.currentTarget.value
+  }
+
+  function sendEmail(){
+    console.log(email)
+    send_post("/subscribe/", {"email":email}, function(response){
+      console.log(response)
+    })
+  }
+
   return (
     <div className="bg-slate-50">
       <div className="mx-auto max-w-7xl py-24 px-4 sm:px-6 lg:flex lg:items-center lg:py-32 lg:px-8">
@@ -11,11 +58,12 @@ export function Newsletter() {
           </p>
         </div>
         <div className="mt-8 lg:mt-0 lg:ml-8">
-          <form className="sm:flex">
+          <div className="sm:flex">
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
             <input
+         
               id="email-address"
               name="email-address"
               type="email"
@@ -23,16 +71,19 @@ export function Newsletter() {
               required
               className="w-full rounded-md border border-gray-300 px-5 py-3 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 sm:max-w-xs"
               placeholder="Enter your email"
+              onChange={setEmail}
             />
             <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3 sm:flex-shrink-0">
               <button
+                onClick={sendEmail}
+                id="submit-email"
                 type="submit"
                 className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-5 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Notify me
               </button>
             </div>
-          </form>
+          </div>
           <p className="mt-3 text-sm text-gray-500">
             We care about the protection of your data. Read our{' '}
             <a href="#" className="font-medium underline">
@@ -44,3 +95,6 @@ export function Newsletter() {
     </div>
   )
 }
+
+
+

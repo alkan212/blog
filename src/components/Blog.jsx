@@ -1,3 +1,5 @@
+import { Image } from "@/components/Image"
+
 const posts = [
   {
     title: 'Boost your conversion rate',
@@ -69,7 +71,7 @@ export function Blog() {
           {posts.map((post) => (
             <div key={post.title} className="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-xl east-out duration-100">
               <div className="flex-shrink-0">
-                <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
+                <Image className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
@@ -87,7 +89,7 @@ export function Blog() {
                   <div className="flex-shrink-0">
                     <a href={post.author.href}>
                       <span className="sr-only">{post.author.name}</span>
-                      <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
+                      <Image className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
                     </a>
                   </div>
                   <div className="ml-3">

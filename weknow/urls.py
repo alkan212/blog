@@ -15,7 +15,51 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+from django.views.generic import TemplateView
+from home.views import *
+
+import os
 
 urlpatterns = [
+    path('', TemplateView.as_view(template_name="index.html")),
     path('admin/', admin.site.urls),
+    path('subscribe/', subscribe),
 ]
+
+
+
+excludedFile = ["_next", "500.html", "404.html"]
+
+
+
+
+
+
+files = []
+# r=root, d=directories, f = files
+for r, d, f in os.walk(os.path.join(settings.BASE_DIR, ".next/server/pages")):
+    for file in f:
+        if file in excludedFile: continue
+        files.append(".next/"+os.path.join(r, file).split(".next/")[1])
+
+
+
+for f in files:
+    if f.endswith(".html") == False:continue
+
+    file_url_path = f.split("/")[-1].split(".html")[0]+"/"
+    html_file_path = os.path.join(settings.BASE_DIR, f)
+
+    urlpatterns.append(
+        path(file_url_path , TemplateView.as_view(template_name=html_file_path)),
+    )
+
+
+
+# print(templates)
+
+# urlpatterns.append(
+#     path("login/" , TemplateView.as_view(template_name=os.path.join(settings.BASE_DIR, '.next/export/login.html'))),
+# )
