@@ -19,8 +19,6 @@ import { Top } from '@/components/blog/Top'
 import { TopTitre } from '@/components/blog/TopTitre'
 import { List } from '@/components/blog/List'
 
-import { UserHeaderimport { ImagesGrid } from '@/components/blog/ImagesGrid'
-
 import { UserHeader } from '@/components/UserHeader'
 
 import { IntroductionText } from '@/components/blog/IntroductionText'
@@ -96,8 +94,6 @@ function Contenu(){
             <li>Mood and well-being: Some people believe that certain scents can have an effect on mood and well-being, and may choose to wear a particular perfume for this reason.</li>
           </List>
           <p>men love to have a multitude of perfumes to change according to their mood so don't be afraid to buy him some even if he already has one </p>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <ImagesGrid col={4} row={2}>
           <a href="https://amzn.to/3j37dl0">
             <img
@@ -124,59 +120,6 @@ function Contenu(){
           </a>
           <a href='https://amzn.to/3Yw7g9l'>AUTOMATIC LAVAREDO</a>
           </ImagesGrid>
-=======
-=======
->>>>>>> d3344c86a71fe8b10f620be7196ecf8dffadf779
-
-          <ImagesGrid col={2} row={1} gap={20} >
-            <div>
-              <a href="https://amzn.to/3j37dl0">
-                <img
-                className='h-full object-contain m-0 p-0'
-                src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg"/>
-  
-                <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
-              </a>
-              
-            </div>
-
-            <div>
-                <a href="https://amzn.to/3G0KnU7">
-                  <img
-                  className='h-full object-contain m-0 p-0'
-        
-                  src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg" />
-                  <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
-                </a>
-                
-            </div>
-            
-            <div>
-              <a href="https://amzn.to/3j2BmRu">
-                <img
-                className='h-full object-contain m-0 p-0'
-                src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
-                </img>
-              </a>
-              <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
-            </div>
-            
-            <div>
-              <a href="https://amzn.to/3Yw7g9l">
-                <img
-                className='h-full object-contain m-0 p-0'
-                src="https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg">
-                </img>
-              </a>
-              <a href='https://amzn.to/3Yw7g9l'>AUTOMATIC LAVAREDO</a>
-            </div>
-
-          </ImagesGrid>
-          
-<<<<<<< HEAD
->>>>>>> 05d536be90fec94d8ed5de102f54f008101eac92
- great gift for men because they are practical, stylish, durable, and versatile. They provide a convenient way to keep cards organized and can be used for a wide range of purposes.{' '}
-=======
       </Top>
 
       <Top>
@@ -184,7 +127,6 @@ function Contenu(){
           
           <p>
           cardholders are a great gift for men because they are practical, stylish, durable, and versatile. They provide a convenient way to keep cards organized and can be used for a wide range of purposes.{' '}
->>>>>>> d3344c86a71fe8b10f620be7196ecf8dffadf779
           </p>
           <ImagesGrid col={4} row={2}>
 
