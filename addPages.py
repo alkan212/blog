@@ -7,6 +7,7 @@ files = []
 # r=root, d=directories, f = files
 for r, d, f in os.walk(startPath):
     for file in f:
+        r = r.replace("\\", "/")
         if file.endswith(".jsx"):
             files.append("src"+os.path.join(r, file).split("/src")[1])
 
