@@ -95,40 +95,51 @@ function Contenu(){
           </List>
           <p>men love to have a multitude of perfumes to change according to their mood so don't be afraid to buy him some even if he already has one </p>
 
-          <ImagesGrid col={4} row={1}>
+          <ImagesGrid col={2} row={1} gap={20} >
             <div>
-              <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
               <a href="https://amzn.to/3j37dl0">
                 <img
-                src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg">
-                </img>
+                className='h-full object-contain m-0 p-0'
+                src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg"/>
+  
+                <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
               </a>
+              
             </div>
 
             <div>
-            <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
-              <a href="https://amzn.to/3G0KnU7">
-                <img
-                src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg">
-                </img>
-              </a>
+                <a href="https://amzn.to/3G0KnU7">
+                  <img
+                  className='h-full object-contain m-0 p-0'
+        
+                  src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg" />
+                  <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
+                </a>
+                
             </div>
             
-
+            <div>
+              <a href="https://amzn.to/3j2BmRu">
+                <img
+                className='h-full object-contain m-0 p-0'
+                src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
+                </img>
+              </a>
+              <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
+            </div>
             
-            <a href="https://amzn.to/3j2BmRu">
-              <img
-              src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
-              </img>
-            </a>
-            <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
-            <a href="https://amzn.to/3Yw7g9l">
-              <img
-              src="https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg">
-              </img>
-            </a>
+            <div>
+              <a href="https://amzn.to/3Yw7g9l">
+                <img
+                className='h-full object-contain m-0 p-0'
+                src="https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg">
+                </img>
+              </a>
+              <a href='https://amzn.to/3Yw7g9l'>AUTOMATIC LAVAREDO</a>
+            </div>
+
           </ImagesGrid>
-          <a href='https://amzn.to/3Yw7g9l'>AUTOMATIC LAVAREDO</a>
+          
       </Top>
 
       <Top>
