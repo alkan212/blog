@@ -1,5 +1,5 @@
 // a changer !
-const titreOnglet = "5 gifts to give to a mane"
+const titreOnglet = "666 gifts to give to a mane"
 const description = "It is always hard to find a gift for your husband your dad or your son. Heres 10 gifts how will be always be appreciated by a man "
 
 const sujet = "gifts"
