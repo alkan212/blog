@@ -18,6 +18,7 @@ import { Blog } from '@/components/Blog'
 import { Top } from '@/components/blog/Top'
 import { TopTitre } from '@/components/blog/TopTitre'
 import { List } from '@/components/blog/List'
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 
 import { UserHeader } from '@/components/UserHeader'
 
@@ -93,29 +94,40 @@ function Contenu(){
             <li>Mood and well-being: Some people believe that certain scents can have an effect on mood and well-being, and may choose to wear a particular perfume for this reason.</li>
           </List>
           <p>men love to have a multitude of perfumes to change according to their mood so don't be afraid to buy him some even if he already has one </p>
-          <a href="https://amzn.to/3j37dl0">
-            <img
-            src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
-          <a href="https://amzn.to/3G0KnU7">
-            <img
-            src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
-          <a href="https://amzn.to/3j2BmRu">
-            <img
-            src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
-          <a href="https://amzn.to/3Yw7g9l">
-            <img
-            src="https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg">
-            </img>
-          </a>
+
+          <ImagesGrid col={4} row={1}>
+            <div>
+              <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
+              <a href="https://amzn.to/3j37dl0">
+                <img
+                src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg">
+                </img>
+              </a>
+            </div>
+
+            <div>
+            <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
+              <a href="https://amzn.to/3G0KnU7">
+                <img
+                src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg">
+                </img>
+              </a>
+            </div>
+            
+
+            
+            <a href="https://amzn.to/3j2BmRu">
+              <img
+              src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
+              </img>
+            </a>
+            <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
+            <a href="https://amzn.to/3Yw7g9l">
+              <img
+              src="https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg">
+              </img>
+            </a>
+          </ImagesGrid>
           <a href='https://amzn.to/3Yw7g9l'>AUTOMATIC LAVAREDO</a>
       </Top>
 
