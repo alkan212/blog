@@ -1,5 +1,5 @@
 // a changer !
-const titreOnglet = "  how to have a happy hamster "
+const titreOnglet = "  how to have a happy Xhamster "
 const description = "Hamsters are cute and entertaining pets that can bring joy to their owners. Here are some tips for keeping your hamster happy."
 
 const sujet = "advice"
