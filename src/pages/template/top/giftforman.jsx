@@ -53,7 +53,7 @@ function Contenu(){
           </p>
           <div>
           Here are some watches that men often like.
-          <ImagesGrid col={4} row={2}>
+          <ImagesGrid col={3} row={2}>
             <div>
               <a href="https://amzn.to/3G1I3MN">
                 <img

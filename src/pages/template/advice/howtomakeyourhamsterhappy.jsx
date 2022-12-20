@@ -1,5 +1,5 @@
 // a changer !
-const titreOnglet = "  how to have a happy Xhamster "
+const titreOnglet = "  how to have a happy hamster "
 const description = "Hamsters are cute and entertaining pets that can bring joy to their owners. Here are some tips for keeping your hamster happy."
 
 const sujet = "advice"
@@ -80,50 +80,52 @@ function Contenu(){
 
           </p>
           <ImagesGrid col={4}>
-          <a href="https://amzn.to/3FDnZyP">
+          <a href="https://amzn.to/3FKtBqZ">
             <img
-            src="https://m.media-amazon.com/images/I/61VJd67Xa+L._AC_SL1500_.jpg">
+            src="https://m.media-amazon.com/images/I/71fBgIWzE-L._AC_SL1500_.jpg">
             </img>
           </a>
-          <a href='https://amzn.to/3FDnZyP'>TEAMPD</a>
-          <a href="https://amzn.to/3BHAMPO">
+          <a href='https://amzn.to/3FKtBqZ'>FINEVERNEK</a>
+          <a href="https://amzn.to/3G94lw6">
             <img
-            src="https://m.media-amazon.com/images/I/61WQvhvkLsL._AC_SL1500_.jpg">
+            src="https://m.media-amazon.com/images/I/71bxtUHxoaL._AC_SL1500_.jpg">
             </img>
           </a>
-          <a href='https://amzn.to/3BHAMPO'>Luxjet</a>
+          <a href='https://amzn.to/3G94lw6'>ball</a>
           </ImagesGrid>
       </Top>
       <Top>
-          <TopTitre>4.E-reader</TopTitre>
+          <TopTitre>4.Give your hamster exercise</TopTitre>
           <p>
-           e-reader can be a great gift for someone who loves to read and wants a convenient way to access their favorite books.
+          Hamsters are active creatures and need time to run and play outside of their cage. Set up a hamster wheel or provide a playpen for your hamster to explore.
           </p>
-          <a href="https://amzn.to/3PzxNyy">
-            <img
-            src="https://m.media-amazon.com/images/I/61IvEw1KL+L._AC_SL1001_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PzxNyy'>All-new Kindle</a>
       </Top>
       <Top>
-          <TopTitre>5.Book-themed gifts</TopTitre>
+          <TopTitre>5.Provide a healthy diet</TopTitre>
           <p>
-          Bookworms will love gifts that show off their love of literature. Consider getting them a book-themed mug, t-shirt, or piece of jewelry.
+          Feed your hamster a balanced diet of fresh fruits and vegetables, as well as a high-quality hamster mix. Avoid giving your hamster too many treats, as this can lead to obesity.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3hC6W8g">
+          <ImagesGrid col={2}>
+          <a href="https://amzn.to/3G99Fjh">
             <img
-            src="https://m.media-amazon.com/images/I/61GY1A6fdKL._AC_SL1001_.jpg">
+            src="https://m.media-amazon.com/images/I/81n+4mvyXUL._AC_SL1500_.jpg">
             </img>
           </a>
-          <a href='https://amzn.to/3hC6W8g'>TMISHION Jewellery</a>
-          <a href="https://amzn.to/3Wf7CzO">
+          <a href='https://amzn.to/3G99Fjh'>Vitakraft</a>
+          </ImagesGrid>
+      </Top>
+      <Top>
+          <TopTitre>6.Give your hamster social interaction</TopTitre>
+          <p>
+          Hamsters are social animals and thrive on interaction with their owners. Spend time talking to your hamster and handling them daily to keep them happy and well-adjusted.
+          </p>
+          <ImagesGrid col={2}>
+          <a href="https://amzn.to/3G99Fjh">
             <img
-            src="https://m.media-amazon.com/images/I/61drHiKOjXL._AC_SX679_.jpg">
+            src="https://m.media-amazon.com/images/I/81n+4mvyXUL._AC_SL1500_.jpg">
             </img>
           </a>
-          <a href='https://amzn.to/3Wf7CzO'>Miniblings Silver Book </a>
+          <a href='https://amzn.to/3G99Fjh'>Vitakraft</a>
           </ImagesGrid>
       </Top>
     </>
@@ -137,7 +139,7 @@ function Conclusion(){
         <h2>Conclusion</h2>
         <p>
 
-        Remember, the key to choosing a great gift for a bookworm is to think about their interests and passions. With a little bit of thought, you can find a gift that they will truly appreciate and enjoy.
+        In conclusion, there are many steps you can take to ensure that your hamster is happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to keep your hamster entertained and well-nourished. It is also important to give your hamster plenty of social interaction and exercise to keep them active and engaged. By following these tips and taking good care of your hamster, you can help them live a long and happy life. Remember, every hamster is unique and may have different needs, so it is important to pay attention to your hamster's behavior and adjust your care routine as needed. With a little love and attention, your hamster will be a happy and beloved member of your family.
         </p>
 
     </>
