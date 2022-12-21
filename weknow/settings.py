@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vqd3iyr-b1lg6ojm#ysppc=)!9r(yl&5ju+p9=lbt2iv#cqi^@
 DEBUG = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "weknowblog.herokuapp.com"]
-
+DATA_UPLOAD_MAX_MEMORY_SIZE = (5242880)*2
 
 # Application definition
 
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'weknow.urls'
@@ -115,6 +116,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
 
 STATIC_URL = '/_next/static/'
 
