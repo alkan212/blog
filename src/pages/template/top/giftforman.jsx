@@ -7,7 +7,7 @@ const titre = "5 gifts to give to a man"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -53,43 +53,11 @@ function Contenu(){
           </p>
           <div>
           Here are some watches that men often like.
-          <ImagesGrid col={3} row={2}>
-            <div>
-              <a href="https://amzn.to/3G1I3MN">
-                <img
-                src="https://m.media-amazon.com/images/I/81+9JdS7UNL._AC_SX342_.jpg">
-                </img>
-              </a>
-              <a href='https://amzn.to/3G1I3MN'>AUTOMATIC LAVAREDO</a>
-            </div>
-
-          <div>
-            <a href="https://amzn.to/3W5XFnX">
-              <img
-              src="https://m.media-amazon.com/images/I/61XEg3nbJuL._AC_SX342_.jpg">
-              </img>
-            </a>
-            <a href='https://amzn.to/3W5XFnX'>BENYAR</a>
-          </div>
-
-          <div>
-            <a href="https://amzn.to/3W9Jb6L">
-              <img
-              src="https://m.media-amazon.com/images/I/61FwtvznZ1L._AC_SX342_.jpg">
-              </img>
-            </a>
-            <a href='https://amzn.to/3W9Jb6L'>Emporio Armani</a>
-          </div>
-
-          <div>
-            <a href="https://amzn.to/3G0JsTF">
-              <img
-              src="https://m.media-amazon.com/images/I/61h5jLtuOVL._AC_SL1500_.jpg">
-              </img>
-            </a>
-            <a href='https://amzn.to/3G0JsTF'>IDEALROYAL</a>
-          </div>
-
+          <ImagesGrid col={4} row={1} gap={3}>
+            <Img text={"AUTOMATIC LAVAREDO"} src={"https://m.media-amazon.com/images/I/81+9JdS7UNL._AC_SX342_.jpg"} href={"https://amzn.to/3G1I3MN"} />
+            <Img text={"BENYAR"} src={"https://m.media-amazon.com/images/I/61XEg3nbJuL._AC_SX342_.jpg"} href={"https://amzn.to/3W5XFnX"} />
+            <Img text={"Emporio Armani"} src={"https://m.media-amazon.com/images/I/61FwtvznZ1L._AC_SX342_.jpg"} href={"https://amzn.to/3W5XFnX"} />
+            <Img text={"IDEALROYAL"} src={"https://m.media-amazon.com/images/I/61h5jLtuOVL._AC_SL1500_.jpg"} href={"https://amzn.to/3G0JsTF"} />
           </ImagesGrid>
           </div>
       </Top>
@@ -106,31 +74,11 @@ function Contenu(){
             <li>Mood and well-being: Some people believe that certain scents can have an effect on mood and well-being, and may choose to wear a particular perfume for this reason.</li>
           </List>
           <p>men love to have a multitude of perfumes to change according to their mood so don't be afraid to buy him some even if he already has one </p>
-          <ImagesGrid col={4} row={2}>
-          <a href="https://amzn.to/3j37dl0">
-            <img
-            src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
-          <a href="https://amzn.to/3G0KnU7">
-            <img
-            src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
-          <a href="https://amzn.to/3j2BmRu">
-            <img
-            src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
-          <a href="https://amzn.to/3Yw7g9l">
-            <img
-            src="https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Yw7g9l'>AUTOMATIC LAVAREDO</a>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Azzaro For Men"} src={"https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg"} href={"https://amzn.to/3j37dl0"} />
+            <Img text={"Dior Sauvage"} src={"https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg"} href={"https://amzn.to/3G0KnU7"} />
+            <Img text={"Invictus Paco Rabanne"} src={"https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg"} href={"https://amzn.to/3j2BmRu"} />
+            <Img text={"Automatic Lavaredo"} src={"https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg"} href={"https://amzn.to/3Yw7g9l"} />
           </ImagesGrid>
       </Top>
 
@@ -140,33 +88,11 @@ function Contenu(){
           <p>
           cardholders are a great gift for men because they are practical, stylish, durable, and versatile. They provide a convenient way to keep cards organized and can be used for a wide range of purposes.{' '}
           </p>
-          <ImagesGrid col={4} row={2}>
-
-          <a href="https://amzn.to/3PBpv9i">
-            <img
-            src="https://m.media-amazon.com/images/I/91YmIz5wHYL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PBpv9i'>Tommy Hilfiger</a>
-          <a href="https://amzn.to/3WmmH1O">
-            <img
-            src="https://m.media-amazon.com/images/I/71HrESbZ70L._AC_SL1500_.jpg_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WmmH1O'>vulkit</a>
-          <a href="https://amzn.to/3uY1aRJ">
-            <img
-            src="https://m.media-amazon.com/images/I/5199Okxl47L._AC_SL1024_.jpg">
-
-            </img>
-          </a>
-          <a href='https://amzn.to/3uY1aRJ'>performante</a>
-          <a href="https://amzn.to/3hyzTC6">
-            <img
-            src="https://m.media-amazon.com/images/I/71eolCU-kFL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3hyzTC6'>NANIMOO</a>
+          <ImagesGrid col={4} row={1} gap={2}>
+            <Img text={"Tommy Hilfiger"} src={"https://m.media-amazon.com/images/I/91YmIz5wHYL._AC_SL1500_.jpg"} href={"https://amzn.to/3PBpv9i"} />
+            <Img text={"Vulkit"} src={"https://m.media-amazon.com/images/I/71HrESbZ70L._AC_SL1500_.jpg"} href={"https://amzn.to/3WmmH1O"} />
+            <Img text={"Performante"} src={"https://m.media-amazon.com/images/I/5199Okxl47L._AC_SL1024_.jpg"} href={"https://amzn.to/3uY1aRJ"} />
+            <Img text={"Naninmoo"} src={"https://m.media-amazon.com/images/I/71eolCU-kFL._AC_SL1500_.jpg"} href={"https://amzn.to/3hyzTC6"} />
           </ImagesGrid>
       </Top>
       <Top>
