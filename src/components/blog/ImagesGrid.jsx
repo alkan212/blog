@@ -9,7 +9,7 @@ String.prototype.format = function() {
 }
 
 
-export function ImagesGrid({col, row, gap=4, ...props}) {
+export function ImagesGrid({col, row, gap=4, size="100", ...props}) {
 
   gap = gap*10
 
@@ -17,10 +17,11 @@ export function ImagesGrid({col, row, gap=4, ...props}) {
     gridTemplateColumns:"repeat({value}, 1fr)".replace("{value}", col),
     gridTemplateRows:"repeat({value}, 1fr)".replace("{value}", row),
     gridGap:gap,
+    width:"{0}%".replace("{0}", size.toString()),
   }
 
   return (
-    <div className="grid relative my-10 w-full" style={st} {...props}>
+    <div className="grid relative my-10" style={st} {...props}>
  
     </div>
   )
