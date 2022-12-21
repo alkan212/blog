@@ -9,15 +9,24 @@ String.prototype.format = function() {
 }
 
 
-export function ImagesGrid({col, row, gap=4, size="100", ...props}) {
+export function ImagesGrid({col, row, gap=4, size=null, ...props}) {
 
   gap = gap*10
+
+  if(size == null){
+    size = "100%";
+  }else{
+    size = (size*50).toString()+"px";
+  }
+  
+
 
   let st = {
     gridTemplateColumns:"repeat({value}, 1fr)".replace("{value}", col),
     gridTemplateRows:"repeat({value}, 1fr)".replace("{value}", row),
     gridGap:gap,
-    width:"{0}%".replace("{0}", size.toString()),
+    width:"100%",
+    maxWidth:size,
   }
 
   return (
