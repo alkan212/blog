@@ -59,52 +59,53 @@ function Contenu(){
           </ImagesGrid>
       </Top>
 
-      <Top>
-          <TopTitre>2.Clean up after accidents</TopTitre>
-
-          <p>
-          If your dog has an accident inside, be sure to clean it up thoroughly to prevent odors from lingering. Use an enzymatic cleaner specifically designed to neutralize pet odors.
-          </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3YFCScP">
-            <img
-            src="https://m.media-amazon.com/images/I/71W2l-yWryL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3YFCScP'>enzymatic cleaner</a>
-          </ImagesGrid>
-
-      </Top>
-
-      <Top>
-          <TopTitre>3.Keep your dog's living space clean</TopTitre>
-          <div>
-          Regularly wash your dog's bedding, toys, and any other items they come into contact with to keep odors at bay.you can also perfume the dog.
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3G6hPJ7">
-            <img
-            src="https://m.media-amazon.com/images/I/51riBYQtnoL._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G6hPJ7'>Espree</a>
-          </ImagesGrid>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+            <TopTitre>2.Clean up after accidents</TopTitre>
+            <p>
+            If your dog has an accident inside, be sure to clean it up thoroughly to prevent odors from lingering. Use an enzymatic cleaner specifically designed to neutralize pet odors.
+            </p>
           </div>
-      </Top>
-      <Top>
-          <TopTitre>4.Keep your dog hydrated</TopTitre>
-          <p>
-          Drinking plenty of water can help flush out toxins and prevent bad breath. Make sure your dog has access to clean water at all times and encourage them to drink frequently.
-          </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3YA08J9">
-            <img
-            src="https://m.media-amazon.com/images/I/71H0rc2XHiL._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3YA08J9'>Ferplast</a>
+
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"enzymatic cleaner"} src={"https://m.media-amazon.com/images/I/71W2l-yWryL._AC_SL1500_.jpg"} href={"https://amzn.to/3YFCScP"} />
           </ImagesGrid>
+        </div>
       </Top>
-      <Top>
+
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+            <TopTitre>3.Keep your dog's living space clean</TopTitre>
+            <p>Regularly wash your dog's bedding, toys, and any other items they come into contact with to keep odors at bay.you can also perfume the dog.</p>
+          </div>
+
+        
+          <ImagesGrid col={1} size={2.4}>
+            <Img text={"Espree"} src={"https://m.media-amazon.com/images/I/51riBYQtnoL._AC_SL1000_.jpg"} href={"https://amzn.to/3G6hPJ7"} />
+          </ImagesGrid>
+        </div>
+      </Top>
+
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+            <TopTitre>4.Keep your dog hydrated</TopTitre>
+            <p>
+            Drinking plenty of water can help flush out toxins and prevent bad breath. Make sure your dog has access to clean water at all times and encourage them to drink frequently.
+            </p>
+          </div>
+
+        
+
+          <ImagesGrid col={1} size={6}>
+            <Img text={"Ferplast"} src={"https://m.media-amazon.com/images/I/71H0rc2XHiL._AC_SL1000_.jpg"} href={"https://amzn.to/3YA08J9"} />
+          </ImagesGrid>
+        </div>
+      </Top>
+
+      <Top className="mt-10">
           <TopTitre>5.Address any health issues</TopTitre>
           <p>
           If your dog has a particular odor that doesn't go away with regular grooming, it could be a sign of a health issue such as dental problems or a skin condition. In this case, it's important to consult with a veterinarian to determine the cause and get proper treatment.
