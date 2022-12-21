@@ -54,7 +54,7 @@ function Contenu(){
           Regular grooming is essential for maintaining a clean and fresh-smelling dog. This includes bathing your dog regularly (depending on their breed and lifestyle, this could be anywhere from once a week to once a month), brushing their coat, and trimming their nails.you can do it your self with that kis{' '}
         
           </p>
-          <ImagesGrid col={1} size="50">
+          <ImagesGrid col={1} row={1} size={6.5}>
             <Img text={"Freewindo Kit"} src={"https://m.media-amazon.com/images/I/51suyJbNhZL._SY498_BO1,204,203,200_.jpg"} href={"https://amzn.to/3WBs9hL"} />
           </ImagesGrid>
       </Top>
