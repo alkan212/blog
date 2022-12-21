@@ -9,15 +9,18 @@ String.prototype.format = function() {
 }
 
 
-export function ImagesGrid({col, row, ...props}) {
+export function ImagesGrid({col, row, gap=4, ...props}) {
+
+  gap = gap*10
 
   let st = {
     gridTemplateColumns:"repeat({value}, 1fr)".replace("{value}", col),
     gridTemplateRows:"repeat({value}, 1fr)".replace("{value}", row),
+    gridGap:gap,
   }
-  console.log(st)
+
   return (
-    <div className="grid" style={st} {...props}>
+    <div className="grid relative my-10 w-full" style={st} {...props}>
  
     </div>
   )
