@@ -20,7 +20,7 @@ for r, d, f in os.walk(startPath):
         if file.endswith(".jsx"):
             filenames.append(file)
             
-            relative_files.append(("src"+(os.path.join(r, file).split("/src"))).replace("\\", "/"))
+            relative_files.append(("src"+(os.path.join(r, file).split("/src")[1])).replace("\\", "/"))
             files.append(os.path.join(r, file))
 
 
