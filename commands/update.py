@@ -73,12 +73,8 @@ os.system(f'git push -f origin main')
 
 
 
-if platform.system() == "Linux":
-    os.system(f'python3 commands/start.py')
-else:
-    os.system(f'python start.bat')
 
-
+os.system(f'python3 {os.getcwd()}/commands/start.py'.replace("\\", "/"))
 
 
 
