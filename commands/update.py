@@ -19,7 +19,8 @@ for r, d, f in os.walk(startPath):
         r = r.replace("\\", "/")
         if file.endswith(".jsx"):
             filenames.append(file)
-            relative_files.append(os.path.join(r, file).replace(os.getcwd(), "")[1::])
+            
+            relative_files.append(("src"+(os.path.join(r, file).split("/src"))).replace("\\", "/"))
             files.append(os.path.join(r, file))
 
 
