@@ -6,7 +6,7 @@ exports.modules = {
 /***/ 2515:
 /***/ (() => {
 
-/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/logo.d4717871.svg","height":213,"width":213});
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ({"src":"/_next/static/media/logo.6da1d85c.svg","height":213,"width":213});
 
 /***/ }),
 

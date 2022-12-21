@@ -94,7 +94,7 @@ function Img({ text , src , href , ...props }) {
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "m-0 p-0 w-full h-full flex justify-center items-center mt-3 relative px-6 py-7 bg-zinc-800 group-hover:bg-zinc-900 rounded-md",
+                className: "m-0 p-0 w-full h-full flex justify-center items-center mt-3 relative px-6 py-7 bg-zinc-800 group-hover:bg-zinc-900 rounded-sm",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                     target: "_blank",
                     rel: "noopener noreferrer",

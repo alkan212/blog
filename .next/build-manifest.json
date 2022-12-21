@@ -1,237 +1,264 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills-e603bef631faf90c.js"
   ],
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/6lvK3jyLOWd7eplFfYle3/_buildManifest.js",
-    "static/6lvK3jyLOWd7eplFfYle3/_ssgManifest.js"
+    "static/B2yXEVFqnxCaw-oAVm1I4/_buildManifest.js",
+    "static/B2yXEVFqnxCaw-oAVm1I4/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/178-5bf324151bcea4c9.js",
       "static/chunks/pages/index-a56482fe20226ef1.js"
     ],
     "/_app": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
-      "static/css/a48b81efa7b69915.css",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
+      "static/css/3d542d65d00178de.css",
       "static/chunks/pages/_app-da75cb73eb54bc3f.js"
     ],
     "/_error": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/pages/_error-8353112a01355ec2.js"
     ],
     "/login": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/pages/login-04ae7292b794695c.js"
     ],
     "/register": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/pages/register-9c9b72e6bcc82756.js"
     ],
     "/template/advice/b2": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
       "static/chunks/pages/template/advice/b2-f39a5a42413fcd3e.js"
     ],
     "/template/advice/howtobeanattractiveman": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/advice/howtobeanattractiveman-f41b4f0d2bce81d2.js"
+      "static/chunks/pages/template/advice/howtobeanattractiveman-f57bbc8d99a8e29e.js"
     ],
     "/template/advice/howtobeproductive": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/advice/howtobeproductive-4e1cbc13f499f48a.js"
+      "static/chunks/pages/template/advice/howtobeproductive-4bc176326efa90c4.js"
     ],
     "/template/advice/howtogetridofapimple": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/advice/howtogetridofapimple-f429025ff10fafb6.js"
+      "static/chunks/pages/template/advice/howtogetridofapimple-a5112504bfb8c6d2.js"
+    ],
+    "/template/advice/howtogetridofhairdandruff": [
+      "static/chunks/webpack-b8f8d6679aaa5f42.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
+      "static/chunks/978-02f2bca0ad96aa84.js",
+      "static/chunks/69-3760e98989ea2828.js",
+      "static/chunks/178-5bf324151bcea4c9.js",
+      "static/chunks/pages/template/advice/howtogetridofhairdandruff-147b631348497b6f.js"
     ],
     "/template/advice/howtomakeyourhamsterhappy": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/advice/howtomakeyourhamsterhappy-79f2695dfc5fbcdb.js"
+      "static/chunks/pages/template/advice/howtomakeyourhamsterhappy-db4c47ccd503df17.js"
     ],
     "/template/advice/howtoresurrectaplant": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
       "static/chunks/pages/template/advice/howtoresurrectaplant-a3a9e3ef9f97a883.js"
     ],
     "/template/advice/howtostopsweating": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/advice/howtostopsweating-2a7fe284ae48937f.js"
+      "static/chunks/pages/template/advice/howtostopsweating-c0a4081c57d0f439.js"
     ],
     "/template/advice/mycatdoesnotsmellgood": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
       "static/chunks/pages/template/advice/mycatdoesnotsmellgood-a5b9e49f317305d8.js"
     ],
     "/template/advice/mydogdoesnotsmellgood": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/advice/mydogdoesnotsmellgood-3b310fa4eff2e9d8.js"
+      "static/chunks/pages/template/advice/mydogdoesnotsmellgood-08799e495af1c352.js"
     ],
     "/template/oneImage/top10cryptoExchanges2023": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/oneImage/top10cryptoExchanges2023-e215360c46e22304.js"
+      "static/chunks/pages/template/oneImage/top10cryptoExchanges2023-0e15a69b805f646c.js"
     ],
     "/template/top/GiftsfortheBookworm": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/GiftsfortheBookworm-b53471a6b2138b29.js"
+      "static/chunks/pages/template/top/GiftsfortheBookworm-4e429485db5d393b.js"
     ],
     "/template/top/article": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/article-23efba0f7eaa9b02.js"
+      "static/chunks/pages/template/top/article-eac846786a7af5a1.js"
     ],
     "/template/top/exchanges": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/exchanges-34f3499505d1b8ac.js"
+      "static/chunks/pages/template/top/exchanges-d30046ef7fe73c35.js"
+    ],
+    "/template/top/giftforgardener": [
+      "static/chunks/webpack-b8f8d6679aaa5f42.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
+      "static/chunks/978-02f2bca0ad96aa84.js",
+      "static/chunks/69-3760e98989ea2828.js",
+      "static/chunks/178-5bf324151bcea4c9.js",
+      "static/chunks/pages/template/top/giftforgardener-7672b9b3a1da7b05.js"
     ],
     "/template/top/giftforguitarist": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/giftforguitarist-0fb15291eb512ad9.js"
+      "static/chunks/pages/template/top/giftforguitarist-40daa0136ebc2b0d.js"
     ],
     "/template/top/giftforkids": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/giftforkids-4c8875c967d7e8d4.js"
+      "static/chunks/pages/template/top/giftforkids-a98f973a95651f22.js"
     ],
     "/template/top/giftforman": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/giftforman-ab4f47d843b1d5fe.js"
+      "static/chunks/pages/template/top/giftforman-a533194ba2514ced.js"
     ],
     "/template/top/giftforpianist": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/giftforpianist-446b0d17e916acca.js"
+      "static/chunks/pages/template/top/giftforpianist-53cbf07b5f744f54.js"
     ],
     "/template/top/giftfortech": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/giftfortech-c3b606197f097547.js"
+      "static/chunks/pages/template/top/giftfortech-b1f18b31c542a1ef.js"
     ],
     "/template/top/giftforwoman": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/178-5bf324151bcea4c9.js",
       "static/chunks/pages/template/top/giftforwoman-ee3c161766568fc3.js"
     ],
     "/template/top/tradingPlateform": [
       "static/chunks/webpack-b8f8d6679aaa5f42.js",
-      "static/chunks/framework-114634acb84f8baa.js",
-      "static/chunks/main-ec76e967b16b6f72.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
       "static/chunks/978-02f2bca0ad96aa84.js",
-      "static/chunks/69-e87417a772a0dec5.js",
+      "static/chunks/69-3760e98989ea2828.js",
       "static/chunks/675-aaca96120bc7780d.js",
       "static/chunks/178-5bf324151bcea4c9.js",
-      "static/chunks/pages/template/top/tradingPlateform-6fb345f4b5d80f1d.js"
+      "static/chunks/pages/template/top/tradingPlateform-60b46961ee376711.js"
+    ],
+    "/template/top/zizi": [
+      "static/chunks/webpack-b8f8d6679aaa5f42.js",
+      "static/chunks/framework-5454ba69962e678e.js",
+      "static/chunks/main-78c119734667496d.js",
+      "static/chunks/978-02f2bca0ad96aa84.js",
+      "static/chunks/69-3760e98989ea2828.js",
+      "static/chunks/178-5bf324151bcea4c9.js",
+      "static/chunks/pages/template/top/zizi-d75f40a49746b40e.js"
     ]
   },
   "ampFirstPages": []
