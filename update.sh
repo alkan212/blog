@@ -1,0 +1,1 @@
+python3 commands/update.py
