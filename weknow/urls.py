@@ -53,7 +53,7 @@ for f in files:
     html_file_path = os.path.join(settings.BASE_DIR, f)
 
     urlpatterns.append(
-        path(file_url_path , TemplateView.as_view(template_name=html_file_path)),
+        path("blog/"+file_url_path , TemplateView.as_view(template_name=html_file_path)),
     )
 
 
