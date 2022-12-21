@@ -6,7 +6,7 @@ const sujet = "gifts"
 const titre = " gifts for guitarist"
 
 
-
+import { Img } from '@/components/blog/Img'
 import { VisitButton } from '@/components/button/VisitButton'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
@@ -52,44 +52,32 @@ function Contenu(){
 
           <p>
           metronomes are a good gift for musicians because they can be an important tool for practicing and improving their skills. They provide a consistent beat, can be used to break down complex pieces, and come in a variety of styles and prices{' '}
-        
           </p>
-          <ImagesGrid col={6}>
-          <a href="https://amzn.to/3Yys145">
-            <img
-            src="https://m.media-amazon.com/images/I/619olDihj0L._AC_SL1200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Yys145'>Wittner Pyramid</a>
-          <a href="https://amzn.to/3hzj4a6">
-            <img
-            src="https://m.media-amazon.com/images/I/61KWm+uGIqL._AC_SL1196_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3hzj4a6'>Soundbrenner Pulse</a>
-          <a href="https://amzn.to/3WsX6o5">
-            <img
-            src="https://m.media-amazon.com/images/I/61jhLnCRarL._AC_SL1024_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WsX6o5'>seiko</a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"Wittner Pyramid"} src={"https://m.media-amazon.com/images/I/619olDihj0L._AC_SL1200_.jpg"} href={"https://amzn.to/3Yys145"} />
+            <Img text={"Soundbrenner Pulse"} src={"https://m.media-amazon.com/images/I/61KWm+uGIqL._AC_SL1196_.jpg"} href={"https://amzn.to/3hzj4a6"} />
+            <Img text={"seiko"} src={"https://m.media-amazon.com/images/I/61jhLnCRarL._AC_SL1024_.jpg"} href={"https://amzn.to/3WsX6o5"} />
           </ImagesGrid>
       </Top>
 
       <Top>
+      <div className='w-full h-full flex justify-between items-center'>
+      <div className='pr-10'>
           <TopTitre>2.guitare maintenance tools</TopTitre>
+          
 
           <p>
           A guitar care kit is a practical gift that every guitarist will appreciate. It might include a guitar stand, cleaning cloths, and other tools to keep their guitar in top shape.
           </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3jfCzVT">
-            <img
-            src="https://m.media-amazon.com/images/I/718MoZUmMKL._AC_SL1200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3jfCzVT'>Elagon</a>
-          </ImagesGrid>
+          </div>
+
+
+        <ImagesGrid col={1} row={1} size={10}>
+        <Img text={"Elagon"} src={"https://m.media-amazon.com/images/I/718MoZUmMKL._AC_SL1200_.jpg"} href={"https://amzn.to/3jfCzVT"} />
+        </ImagesGrid>
+        </div>
+
+
       </Top>
 
       <Top>
@@ -97,19 +85,9 @@ function Contenu(){
           <p>
           Guitarists are always looking for new music to play. Consider getting them a book of guitar tabs for their favorite songs or a book of music theory to help them improve their skills.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3BMLTqx">
-            <img
-            src="https://m.media-amazon.com/images/I/41C6oxWXpAL._SX341_BO1,204,203,200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3BMLTqx'>THE BEATLES COMPLETE CHORD</a>
-          <a href="https://amzn.to/3BL1Gq1">
-            <img
-            src="https://m.media-amazon.com/images/I/51JcOA56aaL._SX484_BO1,204,203,200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3BL1Gq1'>MICKEY BAKER'S COMPLETE COURSE IN JAZZ GUITAR GUITARE</a>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"THE BEATLES COMPLETE CHORD"} src={"https://m.media-amazon.com/images/I/41C6oxWXpAL._SX341_BO1,204,203,200_.jpg"} href={"https://amzn.to/3BMLTqx"} />
+            <Img text={"MICKEY BAKER'S COMPLETE COURSE IN JAZZ GUITAR GUITARE"} src={"https://m.media-amazon.com/images/I/51JcOA56aaL._SX484_BO1,204,203,200_.jpg"} href={"https://amzn.to/3BL1Gq1"} />
           </ImagesGrid>
       </Top>
       <Top>
@@ -117,25 +95,10 @@ function Contenu(){
           <p>
           Jewelry related to music can be a great gift for pianists because it allows them to show off their passion for music in a personal and creative way. Music-themed jewelry can include a wide variety of items, such as pendants with musical notes or symbols, earrings with piano keys or treble clefs, or bracelets with music-themed charms.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3PzxNyy">
-            <img
-            src="https://m.media-amazon.com/images/I/619MJHSsWJL._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PzxNyy'>Cuff Bracelet for Women</a>
-          <a href="https://amzn.to/3Yv5epT">
-            <img
-            src="https://m.media-amazon.com/images/I/61hXtNRcHXL._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Yv5epT'> mixed bracelet </a>
-          <a href="https://amzn.to/3WqMRk7">
-            <img
-            src="https://m.media-amazon.com/images/I/51yl61ZXo-L._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WqMRk7'> Maigendoo </a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"Cuff Bracelet for Women"} src={"https://m.media-amazon.com/images/I/619MJHSsWJL._AC_SX679_.jpg"} href={"https://amzn.to/3PzxNyy"} />
+            <Img text={"mixed bracelet"} src={"https://m.media-amazon.com/images/I/61hXtNRcHXL._AC_SX679_.jpg"} href={"https://amzn.to/3Yv5epT"} />
+            <Img text={"Maigendoo"} src={"https://m.media-amazon.com/images/I/51yl61ZXo-L._AC_SX679_.jpg"} href={"https://amzn.to/3WqMRk7"} />
           </ImagesGrid>
       </Top>
       <Top>
@@ -143,26 +106,12 @@ function Contenu(){
           <p>
           Guitarists can always use new picks, strings, straps, and other accessories. Consider getting them a set of their favorite brand of strings or a new guitar strap.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3WtdAMZ">
-            <img
-            src="https://m.media-amazon.com/images/I/51JJIcjiB8L._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WtdAMZ'>tuner</a>
-          <a href="https://amzn.to/3W6meB7">
-            <img
-            src="https://m.media-amazon.com/images/I/61mf5vmQNAL._AC_SL1200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3W6meB7'> Guitar Wall Mount </a>
-          <a href="https://amzn.to/3WqlcQd">
-            <img
-            src="https://m.media-amazon.com/images/I/71+4zd1hMdL._AC_SL1200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WqlcQd'> WiNGO Guitar Capo </a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"tuner"} src={"https://m.media-amazon.com/images/I/51JJIcjiB8L._AC_SL1000_.jpg"} href={"https://amzn.to/3WtdAMZ"} />
+            <Img text={"Guitar Wall Mount"} src={"https://m.media-amazon.com/images/I/61mf5vmQNAL._AC_SL1200_.jpg"} href={"https://amzn.to/3Yv5epT"} />
+            <Img text={"WiNGO Guitar Capo"} src={"https://m.media-amazon.com/images/I/71+4zd1hMdL._AC_SL1200_.jpg"} href={"https://amzn.to/3WqlcQd"} />
           </ImagesGrid>
+
       </Top>
     </>
   )

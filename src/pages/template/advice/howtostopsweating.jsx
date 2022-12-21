@@ -79,7 +79,7 @@ function Contenu(){
          </p>        
       </Top>
       <Top>
-          <TopTitre>5.Consider prescription treatments</TopTitre>
+          <TopTitre>4.Consider prescription treatments</TopTitre>
           <p>
           Washing your body regularly and using antiperspirant deodorants can help reduce sweating and body odor.
           </p>

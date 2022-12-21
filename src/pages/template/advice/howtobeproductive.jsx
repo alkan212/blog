@@ -7,7 +7,7 @@ const titre = "how to be more productive"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -55,24 +55,19 @@ function Contenu(){
         
           </p>
       </Top>
-
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>2.Create a to-do list</TopTitre>
-
           <p>
           A to-do list can help you stay organized and prioritize your tasks. Keep your list short and focus on the most important tasks first.it it's easier for your brain to stay focused by using a paper to do list like this one
           </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3Wbg3Ma">
-            <img
-            src="https://m.media-amazon.com/images/I/71uih1YW9GL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Wbg3Ma'>to-do list</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={5}>
+            <Img text={"to-do list"} src={"https://m.media-amazon.com/images/I/71uih1YW9GL._AC_SL1500_.jpg"} href={"https://amzn.to/3Wbg3Ma"} />
           </ImagesGrid>
-
+          </div>
       </Top>
-
       <Top>
           <TopTitre>3.Minimize distractionsh</TopTitre>
           <p>
@@ -91,19 +86,18 @@ function Contenu(){
           Techniques like the Pomodoro Technique and time blocking can help you stay focused and make the most of your time.
           </p>
       </Top>
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>6.Get enough sleep</TopTitre>
           <p>
           Proper sleep is essential for productivity. Make sure you're getting enough rest so that you can work at your best.use an clock too not be wake up by your phone and be attempt to use it.
           </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3YAZj2Q">
-            <img
-            src="https://m.media-amazon.com/images/I/614dzV5TGUL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3YAZj2Q'>alarm clock</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={5}>
+            <Img text={"alarm clock"} src={"https://m.media-amazon.com/images/I/614dzV5TGUL._AC_SL1500_.jpg"} href={"https://amzn.to/3YAZj2Q"} />
           </ImagesGrid>
+          </div>
       </Top>
       <Top>
           <TopTitre>7.Stay organized:</TopTitre>

@@ -7,7 +7,7 @@ const titre = "5 gifts for kids"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -56,26 +56,12 @@ function Contenu(){
 Playing an instrument can also help kids to develop fine motor skills and coordination, and it can be a great way for them to express themselves and connect with others through music. Finally, learning to play an instrument can be a great way for kids to relax and de-stress, as it can be a soothing and meditative activity. Overall, a musical instrument can be a wonderful gift that keeps on giving, as it can provide kids with a lifetime of enjoyment and personal growth{' '}
         
           </p>
-          <ImagesGrid col={6} row={1}>
-          <a href="https://amzn.to/3PCRGEK">
-            <img
-            src="https://m.media-amazon.com/images/I/71zbhxqqMAS._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PCRGEK'>Ukulele</a>
-          <a href="https://amzn.to/3v2jzN9">
-            <img
-            src="https://m.media-amazon.com/images/I/91CS0eGcsXL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3v2jzN9'>Rockjam</a>
-          <a href="https://amzn.to/3jjw8kk">
-            <img
-            src="https://m.media-amazon.com/images/I/81Ic8U91IiL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3jjw8kk'>Alesis Turbo Mesh Kit</a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"Ukulele"} src={"https://m.media-amazon.com/images/I/71zbhxqqMAS._AC_SL1500_.jpg"} href={"https://amzn.to/3PCRGEK"} />
+            <Img text={"Rockjam"} src={"https://m.media-amazon.com/images/I/91CS0eGcsXL._AC_SL1500_.jpg"} href={"https://amzn.to/3v2jzN9"} />
+            <Img text={"Alesis Turbo Mesh Kit"} src={"https://m.media-amazon.com/images/I/81Ic8U91IiL._AC_SL1500_.jpg"} href={"https://amzn.to/3jjw8kk"} />
           </ImagesGrid>
+
       </Top>
 
       <Top>
@@ -84,40 +70,19 @@ Playing an instrument can also help kids to develop fine motor skills and coordi
           <p>
           Board games and puzzles can be great gifts for kids for several reasons. First, they provide a fun and engaging activity that kids can enjoy on their own or with others. This can be especially useful during the pandemic when social distancing measures may limit in-person play dates or other activities. Board games and puzzles can also help to promote cognitive development in kids by challenging their problem-solving skills, strategic thinking, and decision-making abilities.
           </p>
-          <ImagesGrid col={4} row={1}>
-          <a href="https://amzn.to/3HNSvsG">
-            <img
-            src="https://m.media-amazon.com/images/I/81HjTEb9Z6L._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3HNSvsG'>Puzzle 3D</a>
-          <a href="https://amzn.to/3V7Ml9x">
-            <img
-            src="https://m.media-amazon.com/images/I/9130T-YaWeL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3V7Ml9x'>JUMANJI</a>
-          </ImagesGrid>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Puzzle 3D"} src={"https://m.media-amazon.com/images/I/81HjTEb9Z6L._AC_SL1500_.jpg"} href={"https://amzn.to/3HNSvsG"} />
+            <Img text={"JUMANJI"} src={"https://m.media-amazon.com/images/I/9130T-YaWeL._AC_SL1500_.jpg"} href={"https://amzn.to/3V7Ml9x"} />
+          </ImagesGrid>         
       </Top>
-
       <Top>
           <TopTitre>3.lego</TopTitre>
           <p>
           Legos are also a versatile toy that can be enjoyed by kids of all ages. There are different Lego sets available that cater to different interests and skill levels, so kids can continue to challenge themselves as they grow and develop. Legos can be a great toy for kids to play with on their own or with others, as they can build and play together, fostering teamwork and collaboration. Overall, Legos can be a great gift that provides kids with endless hours of fun and learning.
           </p>
-          <ImagesGrid col={4} row={1}>
-          <a href="https://amzn.to/3FDK1S4">
-            <img
-            src="https://m.media-amazon.com/images/I/61X1rcPCh3L._AC_SL1005_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3FDK1S4'>Star Wars </a>
-          <a href="https://amzn.to/3WsCxbl">
-            <img
-            src="https://m.media-amazon.com/images/I/710nlp90uCL._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WsCxbl'>classic</a>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Star Wars"} src={"https://m.media-amazon.com/images/I/61X1rcPCh3L._AC_SL1005_.jpg"} href={"https://amzn.to/3FDK1S4"} />
+            <Img text={"classic"} src={"https://m.media-amazon.com/images/I/710nlp90uCL._AC_SL1000_.jpg"} href={"https://amzn.to/3WsCxbl"} />
           </ImagesGrid>
       </Top>
       <Top>
@@ -139,21 +104,10 @@ Overall, video games can be a great gift for kids that provides a balance of fun
           <p>
           Science kits can also be a lot of fun for kids, as they often include activities or experiments that kids can perform on their own or with others. This can be a great way for kids to learn and have fun at the same time. Science kits can also be a great way for kids to learn about the scientific method and how to conduct experiments, which can be valuable skills for later in life.
           </p>
-          <ImagesGrid col={4} row={1}>
-          <a href="https://amzn.to/3v2cBaQ">
-            <img
-            src="https://m.media-amazon.com/images/I/91AQBSotB2L._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3v2cBaQ'>NATIONAL GEOGRAPHIC Kit</a>
-          <a href="https://amzn.to/3G5oCCW">
-            <img
-            src="https://m.media-amazon.com/images/I/61B4JsSRP8L._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G5oCCW'>
-Levenhuk LabZZ MTB3 Starter Kit for Kids</a>
-  </ImagesGrid>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"NATIONAL GEOGRAPHIC Kit"} src={"https://m.media-amazon.com/images/I/91AQBSotB2L._AC_SL1500_.jpg"} href={"https://amzn.to/3v2cBaQ"} />
+            <Img text={"Levenhuk LabZZ MTB3 Starter Kit for Kids"} src={"https://m.media-amazon.com/images/I/61B4JsSRP8L._AC_SL1000_.jpg"} href={"https://amzn.to/3G5oCCW"} />
+          </ImagesGrid>
       </Top>
     </>
   )

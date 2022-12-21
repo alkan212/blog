@@ -1,9 +1,9 @@
 // a changer !
-const titreOnglet = "  how to have a happy hamster "
-const description = "Hamsters are cute and entertaining pets that can bring joy to their owners. Here are some tips for keeping your hamster happy."
+const titreOnglet = "Gifts for the Gardener: Ideas for the Green Thumb in Your Life"
+const description = "Gardening is a hobby that brings joy and beauty to people's lives. If you have a green thumb in your life, chances are they love spending time in their garden and taking care of their plants. If you're looking for the perfect gift for the gardener in your life, here are some ideas to get you started."
 
-const sujet = "advice"
-const titre = "how to have a happy hamsters"
+const sujet = "gifts"
+const titre = "Gifts for the Gardener: Ideas for the Green Thumb in Your Life"
 
 
 
@@ -21,7 +21,6 @@ import { List } from '@/components/blog/List'
 
 import { UserHeader } from '@/components/UserHeader'
 
-
 import { IntroductionText } from '@/components/blog/IntroductionText'
 import { Sujet } from '@/components/blog/Sujet'
 import { Titre } from '@/components/blog/Titre'
@@ -38,8 +37,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>Welcome to our blog on how to make your hamster happy! Hamsters are popular pets due to their small size and adorable personalities. However, like all pets, they require proper care and attention to thrive. In this blog, we will discuss various ways to keep your hamster happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to ensure your hamster is content. We will also discuss the importance of social interaction and exercise for your hamster's overall well-being. Whether you are a new hamster owner or an experienced pet parent, we hope this blog will provide valuable information on how to care for your furry friend.
-</IntroductionText>
+        <IntroductionText>Gardening is a hobby that brings joy and beauty to people's lives. If you have a green thumb in your life, chances are they love spending time in their garden and taking care of their plants. If you're looking for the perfect gift for the gardener in your life, here are some ideas to get you started.</IntroductionText>
       </div>
     </>
   )
@@ -48,63 +46,71 @@ function Introduction(){
 function Contenu(){
   return (
     <>
-          <Top className="mt-10">
-        <div className='w-full h-full flex justify-between items-center'>
-          <div className='pr-10'>
-          <TopTitre>1.Provide a spacious cage</TopTitre>
-          <p>
-          Hamsters need plenty of room to explore and play. Make sure that the cage is at least 24 inches long, 12 inches wide, and 12 inches tall.{' '}      
-          </p>
-          </div>
-          <ImagesGrid col={1} row={1} size={5}>
-            <Img text={"Zolux Cage"} src={"https://m.media-amazon.com/images/I/61nM7XMT8gL._AC_.jpg"} href={"https://amzn.to/3WeXdno"} />
-          </ImagesGrid>
-          </div>
-      </Top>
-      <Top>
-          <TopTitre>2.Keep the cage clean</TopTitre>
-
-          <p>
-          Clean the cage regularly to keep your hamster healthy and happy. This includes removing soiled bedding and food debris, as well as disinfecting the cage.
-          </p>
-      </Top>
-
-      <Top>
-          <TopTitre>3.Offer a variety of toys</TopTitre>
-          <p>
-          Hamsters love to play and chew, so provide plenty of toys for them to interact with. This can include chew toys, tunnels, and balls.
-          </p>
-          <ImagesGrid col={2} row={1} gap={4} >
-            <Img text={"FINEVERNEK"} src={"https://m.media-amazon.com/images/I/71fBgIWzE-L._AC_SL1500_.jpg"} href={"https://amzn.to/3FKtBqZ"} />
-            <Img text={"ball"} src={"https://m.media-amazon.com/images/I/71bxtUHxoaL._AC_SL1500_.jpg"} href={"https://amzn.to/3G94lw6"} />
-          </ImagesGrid>
-      </Top>
-      <Top>
-          <TopTitre>4.Give your hamster exercise</TopTitre>
-          <p>
-          Hamsters are active creatures and need time to run and play outside of their cage. Set up a hamster wheel or provide a playpen for your hamster to explore.
-          </p>
-      </Top>
-      <Top>
       <Top className="mt-10">
         <div className='w-full h-full flex justify-between items-center'>
           <div className='pr-10'>
-          <TopTitre>5.Provide a healthy diet</TopTitre>
-          <p>
-          Feed your hamster a balanced diet of fresh fruits and vegetables, as well as a high-quality hamster mix. Avoid giving your hamster too many treats, as this can lead to obesity.
-          </p>
+            <TopTitre>1.Gardening tools</TopTitre>
+            <p>
+            Every gardener needs a good set of tools to tend to their plants. Consider gifting them a new set of pruning shears, trowels, or a watering can. If they're into organic gardening, consider getting them a compost bin or a worm farm to help them turn their kitchen scraps into rich soil.
+            </p>
           </div>
-          <ImagesGrid col={1} row={1} size={5}>
-            <Img text={"Vitakraft"} src={"https://m.media-amazon.com/images/I/81n+4mvyXUL._AC_SL1500_.jpg"} href={"https://amzn.to/3G99Fjh"} />
+
+          <ImagesGrid col={1} row={1} size={10}>
+            <Img text={"DEWINNER"} src={"https://m.media-amazon.com/images/I/71Sg6Y3s7+L._AC_SL1500_.jpg"} href={"https://amzn.to/3HTClxP"} />
           </ImagesGrid>
-          </div>
+        </div>
       </Top>
-          <TopTitre>6.Give your hamster social interaction</TopTitre>
+
+      <Top>
+          <TopTitre>2.Seeds and seedlings</TopTitre>
+
           <p>
-          Hamsters are social animals and thrive on interaction with their owners. Spend time talking to your hamster and handling them daily to keep them happy and well-adjusted.
+          Help the gardener in your life expand their garden by giving them a variety of seeds or seedlings. You can find seeds for almost any type of plant, from herbs and vegetables to flowers and trees.
           </p>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Antique Historical Vegetables"} src={"https://m.media-amazon.com/images/I/91kDXvgEfhL._AC_SL1500_.jpg"} href={"https://amzn.to/3jn1p5X"} />
+            <Img text={"YAUNGEL"} src={"https://m.media-amazon.com/images/I/71v39jCinaL._AC_SL1200_.jpg"} href={"https://amzn.to/3BVnBLc"} />
+          </ImagesGrid>
+      </Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+            <TopTitre>3.Gardening gloves</TopTitre>
+            <p>
+            Gardening can be tough on the hands, so a good pair of gloves can make all the difference. Look for gloves that are durable and comfortable, with features like padded palms and moisture-wicking material to keep hands dry.
+            </p>
+          </div>
+
+          <ImagesGrid col={1} row={1} size={10}>
+            <Img text={"DIY Doctor"} src={"https://m.media-amazon.com/images/I/81pD8YbH3aL._AC_SX679_.jpg"} href={"https://amzn.to/3hDEW4p"} />
+          </ImagesGrid>
+        </div>
+      </Top>
+      <Top>
+          <TopTitre>4.Gardening books</TopTitre>
+
+          <p>
+          For the gardener who loves to learn, consider getting them a gardening book. There are so many great options out there, from general gardening guides to specific books on growing particular types of plants.{' '}
+          </p>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"RHS Botany for Gardeners"} src={"https://m.media-amazon.com/images/I/51uxdfxHqRS._SX376_BO1,204,203,200_.jpg"} href={"https://amzn.to/3YJ3Sba"} />
+            <Img text={"RHS Gardening Through the Year"} src={"https://m.media-amazon.com/images/I/51SUzMbJd-L._SX415_BO1,204,203,200_.jpg"} href={"https://amzn.to/3v9dfTX"} />
+          </ImagesGrid>
+      </Top>
+      <Top>
+          <TopTitre>5.Plant care products</TopTitre>
+
+          <p>
+          There are many products out there that can help gardeners take care of their plants more easily. Consider getting them a plant food or fertiliser, a pest control product, or a plant protector to keep their plants healthy and thriving.{' '}
+          </p>
+          <ImagesGrid col={3} row={1} >
+            <Img  text={"Seramis Vital Food for Green Plants"} src={"https://m.media-amazon.com/images/I/81XH9MNgzaL._AC_SL1500_.jpg"} href={"https://amzn.to/3YGYPrH"} />
+            <Img text={"Blattwerk"} src={"https://m.media-amazon.com/images/I/711U81niqQL._SL1500_.jpg"} href={"https://amzn.to/3BSytJE"} />
+            <Img text={"LINSOCLE Winter ProtectorWenger Venture"} src={"https://m.media-amazon.com/images/I/61cuifjZ0rL._AC_SL1083_.jpg"} href={"https://amzn.to/3joqUDZ"} />
+          </ImagesGrid>
       </Top>
     </>
+    
   )
 }
 
@@ -112,11 +118,12 @@ function Conclusion(){
   return (
     <>
 
-        <h2>Conclusion</h2>
+        <h2>conclusion</h2>
         <p>
 
-        In conclusion, there are many steps you can take to ensure that your hamster is happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to keep your hamster entertained and well-nourished. It is also important to give your hamster plenty of social interaction and exercise to keep them active and engaged. By following these tips and taking good care of your hamster, you can help them live a long and happy life. Remember, every hamster is unique and may have different needs, so it is important to pay attention to your hamster's behavior and adjust your care routine as needed. With a little love and attention, your hamster will be a happy and beloved member of your family.
+        No matter what gift you choose, the most important thing is that it comes from the heart. A thoughtful gift for the gardener in your life will surely be appreciated and put to good use in the garden.
         </p>
+
 
     </>
   )

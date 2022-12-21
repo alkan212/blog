@@ -7,7 +7,7 @@ const titre = "4 gifts for pianist"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -54,25 +54,10 @@ function Contenu(){
           metronomes are a good gift for musicians because they can be an important tool for practicing and improving their skills. They provide a consistent beat, can be used to break down complex pieces, and come in a variety of styles and prices{' '}
         
           </p>
-          <ImagesGrid col={6} >
-          <a href="https://amzn.to/3Yys145">
-            <img
-            src="https://m.media-amazon.com/images/I/619olDihj0L._AC_SL1200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Yys145'>Wittner Pyramid</a>
-          <a href="https://amzn.to/3hzj4a6">
-            <img
-            src="https://m.media-amazon.com/images/I/61KWm+uGIqL._AC_SL1196_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3hzj4a6'>Soundbrenner Pulse</a>
-          <a href="https://amzn.to/3WsX6o5">
-            <img
-            src="https://m.media-amazon.com/images/I/61jhLnCRarL._AC_SL1024_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WsX6o5'>seiko</a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"Wittner Pyramid"} src={"https://m.media-amazon.com/images/I/619olDihj0L._AC_SL1200_.jpg"} href={"https://amzn.to/3Yys145"} />
+            <Img text={"Soundbrenner Pulse"} src={"https://m.media-amazon.com/images/I/61KWm+uGIqL._AC_SL1196_.jpg"} href={"https://amzn.to/3hzj4a6"} />
+            <Img text={"seiko"} src={"https://m.media-amazon.com/images/I/61jhLnCRarL._AC_SL1024_.jpg"} href={"https://amzn.to/3WsX6o5"} />
           </ImagesGrid>
       </Top>
 
@@ -91,43 +76,25 @@ function Contenu(){
       </Top>
 
       <Top>
-          <TopTitre>3.score books</TopTitre>
+      <TopTitre>3.score books</TopTitre>
+          
+
           <p>
           Score books can be a great gift for a pianist for several reasons. First and foremost, score books provide a convenient and organized way for pianists to access and play a wide variety of music. Score books typically contain collections of sheet music for various pieces, arranged by genre, composer, or difficulty level. This allows pianists to easily find and play the music they are interested in, whether they are looking for classical repertoire, popular songs, or original compositions
           </p>
-          <ImagesGrid col={3}>
-          <a href="https://amzn.to/3W95E3A">
-            <img
-            src="https://m.media-amazon.com/images/I/61YH4ZroncL._AC_SL1166_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3W95E3A'>fur klavier</a>
-          </ImagesGrid>
+        <ImagesGrid col={1} row={1} size={5}>
+        <Img text={"fur klavier"} src={"https://m.media-amazon.com/images/I/61YH4ZroncL._AC_SL1166_.jpg"} href={"https://amzn.to/3W95E3A"} />
+        </ImagesGrid>
       </Top>
       <Top>
           <TopTitre>4.jewely related to music</TopTitre>
           <p>
           Jewelry related to music can be a great gift for pianists because it allows them to show off their passion for music in a personal and creative way. Music-themed jewelry can include a wide variety of items, such as pendants with musical notes or symbols, earrings with piano keys or treble clefs, or bracelets with music-themed charms.
           </p>
-          <ImagesGrid col={6}>
-          <a href="https://amzn.to/3PzxNyy">
-            <img
-            src="https://m.media-amazon.com/images/I/619MJHSsWJL._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PzxNyy'>Cuff Bracelet for Women</a>
-          <a href="https://amzn.to/3Yv5epT">
-            <img
-            src="https://m.media-amazon.com/images/I/61hXtNRcHXL._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Yv5epT'> mixed bracelet </a>
-          <a href="https://amzn.to/3WqMRk7">
-            <img
-            src="https://m.media-amazon.com/images/I/51yl61ZXo-L._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WqMRk7'> Maigendoo </a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"Cuff Bracelet for Women"} src={"https://m.media-amazon.com/images/I/619MJHSsWJL._AC_SX679_.jpg"} href={"https://amzn.to/3PzxNyy"} />
+            <Img text={"mixed bracelet"} src={"https://m.media-amazon.com/images/I/61hXtNRcHXL._AC_SX679_.jpg"} href={"https://amzn.to/3Yv5epT"} />
+            <Img text={"Maigendoo"} src={"https://m.media-amazon.com/images/I/51yl61ZXo-L._AC_SX679_.jpg"} href={"https://amzn.to/3WqMRk7"} />
           </ImagesGrid>
       </Top>
     </>

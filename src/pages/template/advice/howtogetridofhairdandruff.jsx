@@ -1,9 +1,9 @@
 // a changer !
-const titreOnglet = "  how to have a happy hamster "
-const description = "Hamsters are cute and entertaining pets that can bring joy to their owners. Here are some tips for keeping your hamster happy."
+const titreOnglet = "how to get rid of hair dandruff"
+const description = "Dandruff is a common condition that can cause flakes of skin to appear in the hair and on the scalp. It can be caused by a variety of factors, including dry skin, oily skin, irritation, and certain skin conditions."
 
 const sujet = "advice"
-const titre = "how to have a happy hamsters"
+const titre = "how to get rid of hair dandruff"
 
 
 
@@ -38,8 +38,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>Welcome to our blog on how to make your hamster happy! Hamsters are popular pets due to their small size and adorable personalities. However, like all pets, they require proper care and attention to thrive. In this blog, we will discuss various ways to keep your hamster happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to ensure your hamster is content. We will also discuss the importance of social interaction and exercise for your hamster's overall well-being. Whether you are a new hamster owner or an experienced pet parent, we hope this blog will provide valuable information on how to care for your furry friend.
-</IntroductionText>
+        <IntroductionText>Dandruff is a common condition that can cause flakes of skin to appear in the hair and on the scalp. It can be caused by a variety of factors, including dry skin, oily skin, irritation, and certain skin conditions.</IntroductionText>
       </div>
     </>
   )
@@ -51,57 +50,71 @@ function Contenu(){
           <Top className="mt-10">
         <div className='w-full h-full flex justify-between items-center'>
           <div className='pr-10'>
-          <TopTitre>1.Provide a spacious cage</TopTitre>
+          <TopTitre>1.Wash your hair regularly with a dandruff shampoo</TopTitre>
           <p>
-          Hamsters need plenty of room to explore and play. Make sure that the cage is at least 24 inches long, 12 inches wide, and 12 inches tall.{' '}      
+          There are several over-the-counter dandruff shampoos available that contain ingredients like pyrithione zinc, selenium sulfide, or ketoconazole. These ingredients can help to reduce the amount of yeast on the scalp, which can contribute to dandruff.{' '}
           </p>
           </div>
-          <ImagesGrid col={1} row={1} size={5}>
-            <Img text={"Zolux Cage"} src={"https://m.media-amazon.com/images/I/61nM7XMT8gL._AC_.jpg"} href={"https://amzn.to/3WeXdno"} />
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"Anti Dandruff Shampoo"} src={"https://m.media-amazon.com/images/I/81y-9A8a+vL._AC_SL1500_.jpg"} href={"https://amzn.to/3Wyxzd5"} />
           </ImagesGrid>
           </div>
-      </Top>
-      <Top>
-          <TopTitre>2.Keep the cage clean</TopTitre>
-
+        </Top>
+        <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+          <TopTitre>2.Use a gentle, moisturizing shampoo</TopTitre>
           <p>
-          Clean the cage regularly to keep your hamster healthy and happy. This includes removing soiled bedding and food debris, as well as disinfecting the cage.
+          If you have dry skin, using a harsh shampoo can strip the scalp of its natural oils and make dandruff worse. Instead, try using a gentle, moisturizing shampoo to help keep the scalp hydrated.
           </p>
-      </Top>
-
-      <Top>
-          <TopTitre>3.Offer a variety of toys</TopTitre>
-          <p>
-          Hamsters love to play and chew, so provide plenty of toys for them to interact with. This can include chew toys, tunnels, and balls.
-          </p>
-          <ImagesGrid col={2} row={1} gap={4} >
-            <Img text={"FINEVERNEK"} src={"https://m.media-amazon.com/images/I/71fBgIWzE-L._AC_SL1500_.jpg"} href={"https://amzn.to/3FKtBqZ"} />
-            <Img text={"ball"} src={"https://m.media-amazon.com/images/I/71bxtUHxoaL._AC_SL1500_.jpg"} href={"https://amzn.to/3G94lw6"} />
+          </div>
+          <ImagesGrid col={1} row={1} size={2}>
+            <Img text={"Redken"} src={"https://m.media-amazon.com/images/I/71ldsxWU0zL._AC_SL1500_.jpg"} href={"https://amzn.to/3jpRNYw"} />
           </ImagesGrid>
-      </Top>
+          </div>
+        </Top>
       <Top>
-          <TopTitre>4.Give your hamster exercise</TopTitre>
+          <TopTitre>3.Avoid using hair products that contain alcohol</TopTitre>
           <p>
-          Hamsters are active creatures and need time to run and play outside of their cage. Set up a hamster wheel or provide a playpen for your hamster to explore.
-          </p>
+          Hair products that contain alcohol can dry out the scalp and make dandruff worse. Instead, look for products that are specifically formulated for dry or sensitive scalp.
+         </p>        
       </Top>
-      <Top>
       <Top className="mt-10">
         <div className='w-full h-full flex justify-between items-center'>
           <div className='pr-10'>
-          <TopTitre>5.Provide a healthy diet</TopTitre>
+          <TopTitre>4.Use a scalp scrub</TopTitre>
           <p>
-          Feed your hamster a balanced diet of fresh fruits and vegetables, as well as a high-quality hamster mix. Avoid giving your hamster too many treats, as this can lead to obesity.
+          A scalp scrub can help to remove dead skin cells and excess oil from the scalp, which can help to reduce dandruff. You can make your own scalp scrub by mixing equal parts sugar and olive oil and massaging it into the scalp.
           </p>
           </div>
-          <ImagesGrid col={1} row={1} size={5}>
-            <Img text={"Vitakraft"} src={"https://m.media-amazon.com/images/I/81n+4mvyXUL._AC_SL1500_.jpg"} href={"https://amzn.to/3G99Fjh"} />
+          <ImagesGrid col={1} row={1} size={2}>
+            <Img text={"The INKEY List"} src={"https://m.media-amazon.com/images/I/51V8MPnofIL._AC_SL1000_.jpg"} href={"https://amzn.to/3G994hd"} />
           </ImagesGrid>
           </div>
-      </Top>
-          <TopTitre>6.Give your hamster social interaction</TopTitre>
+        </Top>
+        <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+          <TopTitre>5.Try using tea tree oil</TopTitre>
           <p>
-          Hamsters are social animals and thrive on interaction with their owners. Spend time talking to your hamster and handling them daily to keep them happy and well-adjusted.
+          Tea tree oil has antifungal and anti-inflammatory properties that can help to reduce dandruff. Mix a few drops of tea tree oil with a carrier oil like coconut oil and massage it into the scalp.
+          </p>
+          </div>
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"Organic Tea Tree"} src={"https://m.media-amazon.com/images/I/61b0N+wJEPS._AC_SL1500_.jpg"} href={"https://amzn.to/3WfsNl9"} />
+          </ImagesGrid>
+          </div>
+        </Top>
+      <Top>
+          <TopTitre>6.Avoid tight hairstyles</TopTitre>
+          <p>
+          Tight hairstyles, such as ponytails or braids, can cause irritation and inflammation on the scalp, which can contribute to dandruff. Try to avoid tight hairstyles and opt for looser styles instead.
+          </p>
+      </Top>
+      <Top>
+          <TopTitre>7.Stay hydrated</TopTitre>
+          <p>
+          Drinking plenty of water and staying hydrated can help to keep the scalp healthy and reduce dandruff. Aim for at least eight glasses of water per day.
           </p>
       </Top>
     </>
@@ -115,7 +128,7 @@ function Conclusion(){
         <h2>Conclusion</h2>
         <p>
 
-        In conclusion, there are many steps you can take to ensure that your hamster is happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to keep your hamster entertained and well-nourished. It is also important to give your hamster plenty of social interaction and exercise to keep them active and engaged. By following these tips and taking good care of your hamster, you can help them live a long and happy life. Remember, every hamster is unique and may have different needs, so it is important to pay attention to your hamster's behavior and adjust your care routine as needed. With a little love and attention, your hamster will be a happy and beloved member of your family.
+        It's important to note that dandruff can be a persistent problem and may require ongoing treatment. If you have tried these tips and your dandruff persists, consider speaking with a dermatologist or healthcare provider for further evaluation and treatment.
         </p>
 
     </>

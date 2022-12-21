@@ -7,7 +7,7 @@ const titre = "5 gifts for a technology lover"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -54,25 +54,10 @@ function Contenu(){
           Smart home devices like a smart thermostat, smart lighting, or a smart security system can be a great gift for someone who loves to stay connected and in control of their home.{' '}
         
           </p>
-          <ImagesGrid col={6}>
-          <a href="https://amzn.to/3BL78sH">
-            <img
-            src="https://m.media-amazon.com/images/I/61VkzvlBTOL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3BL78sH'>Philips Lighting</a>
-          <a href="https://amzn.to/3V9WJxH">
-            <img
-            src="https://m.media-amazon.com/images/I/51JFCf7NImL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3V9WJxH'>Smart Thermostat WiFi Heater</a>
-          <a href="https://amzn.to/3HIAgEX">
-            <img
-            src="https://m.media-amazon.com/images/I/71QUcoCQzIL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3HIAgEX'>Wolf-Guard</a>
+          <ImagesGrid col={3} row={1} >
+            <Img text={"Philips Lighting"} src={"https://m.media-amazon.com/images/I/61VkzvlBTOL._AC_SL1500_.jpg"} href={"https://amzn.to/3BL78sH"} />
+            <Img text={"Smart Thermostat WiFi Heater"} src={"https://m.media-amazon.com/images/I/51JFCf7NImL._AC_SL1500_.jpg"} href={"https://amzn.to/3V9WJxH"} />
+            <Img text={"Wolf-Guard"} src={"https://m.media-amazon.com/images/I/71QUcoCQzIL._AC_SL1500_.jpg"} href={"https://amzn.to/3HIAgEX"} />
           </ImagesGrid>
       </Top>
 
@@ -82,19 +67,9 @@ function Contenu(){
           <p>
           A virtual reality headset can be a great gift for someone who loves to experience new technologies and immersive experiences.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3jfjp28">
-            <img
-            src="https://m.media-amazon.com/images/I/51yB98vFpSL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3jfjp28'>occulus quest 2</a>
-          <a href="https://amzn.to/3FZJ4VI">
-            <img
-            src="https://m.media-amazon.com/images/I/61gPT5KkOkL._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3FZJ4VI'>FIYAPOO</a>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"occulus quest 2"} src={"https://m.media-amazon.com/images/I/51yB98vFpSL._AC_SL1500_.jpg"} href={"https://amzn.to/3jfjp28"} />
+            <Img text={"FIYAPOO"} src={"https://m.media-amazon.com/images/I/61gPT5KkOkL._AC_SL1000_.jpg"} href={"https://amzn.to/3FZJ4VI"} />
           </ImagesGrid>
       </Top>
 
@@ -103,19 +78,9 @@ function Contenu(){
           <p>
           A smartwatch can be a useful and stylish gift for someone who loves technology and staying connected
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3G0JsTF">
-            <img
-            src="https://m.media-amazon.com/images/I/61h5jLtuOVL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G0JsTF'>IDEALROYAL</a>
-          <a href="https://amzn.to/3Wv7Xh8">
-            <img
-            src="https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3Wv7Xh8'>AGPTEK Women's</a>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Men's and Women's Smartwatch"} src={"https://m.media-amazon.com/images/I/61TzjMeU3mS._AC_SL1500_.jpg"} href={"https://amzn.to/3PLI7DN"} />
+            <Img text={"AGPTEK Women's"} src={"https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SL1500_.jpg"} href={"https://amzn.to/3Wv7Xh8"} />
           </ImagesGrid>
       </Top>
       <Top>
@@ -124,7 +89,7 @@ function Contenu(){
            e-reader can be a great gift for someone who loves to read and wants a convenient way to access their favorite books.
           </p>
           <a href="https://amzn.to/3PzxNyy">
-            <img
+            <img width={400}
             src="https://m.media-amazon.com/images/I/61IvEw1KL+L._AC_SL1001_.jpg">
             </img>
           </a>
@@ -135,19 +100,9 @@ function Contenu(){
           <p>
           A drone can be a fun and unique gift for someone who loves technology and enjoys exploring new perspectives.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3hFkIHd">
-            <img
-            src="https://m.media-amazon.com/images/I/61Y1P6uIRFL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3hFkIHd'>Dji Mini 3 Pro</a>
-          <a href="https://amzn.to/3PAIP6q">
-            <img
-            src="https://m.media-amazon.com/images/I/61R03KloSKL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PAIP6q'>BAICHUN</a>
+          <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Dji Mini 3 Pro"} src={"https://m.media-amazon.com/images/I/61Y1P6uIRFL._AC_SL1500_.jpg"} href={"https://amzn.to/3hFkIHd"} />
+            <Img text={"BAICHUN"} src={"https://m.media-amazon.com/images/I/61R03KloSKL._AC_SL1500_.jpg"} href={"https://amzn.to/3PAIP6q"} />
           </ImagesGrid>
       </Top>
     </>

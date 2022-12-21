@@ -7,7 +7,7 @@ const titre = "how to be an attractive man"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -62,25 +62,11 @@ function Contenu(){
           <p>
           A good perfume can help a man make a good first impression. A pleasant scent can leave a positive impression on those around him, especially in professional or social situations.
           </p>
-          <ImagesGrid col={6}>
-          <a href="https://amzn.to/3j37dl0">
-            <img
-            src="https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3j37dl0'>azzaro for men</a>
-          <a href="https://amzn.to/3G0KnU7">
-            <img
-            src="https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G0KnU7'>DIOR SAUVAGE</a>
-          <a href="https://amzn.to/3j2BmRu">
-            <img
-            src="https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3j2BmRu'>INVICTUS PACO RABANNE</a>
+          <ImagesGrid col={2} row={1} gap={4} size={10}>
+            <Img text={"Azzaro For Men"} src={"https://m.media-amazon.com/images/I/71Iu3XNRIXL._AC_SL1500_.jpg"} href={"https://amzn.to/3j37dl0"} />
+            <Img text={"Dior Sauvage"} src={"https://m.media-amazon.com/images/I/71ecjSJa1oS._AC_SL1500_.jpg"} href={"https://amzn.to/3G0KnU7"} />
+            <Img text={"Invictus Paco Rabanne"} src={"https://m.media-amazon.com/images/I/41ZcVeWZkeL._AC_.jpg"} href={"https://amzn.to/3j2BmRu"} />
+            <Img text={"Automatic Lavaredo"} src={"https://m.media-amazon.com/images/I/71z-Gw53MaL._AC_SL1500_.jpg"} href={"https://amzn.to/3Yw7g9l"} />
           </ImagesGrid>
 
       </Top>
@@ -91,31 +77,31 @@ function Contenu(){
           Work on your posture and body language. Standing up straight, making eye contact, and maintaining good posture can help you appear more confident and attractive.
           </p>
       </Top>
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>4.read books</TopTitre>
           <p>
           Cultivate your interests and passions, and be well-rounded and knowledgeable about a variety of topics. This can make you more interesting and attractive to others.
           </p>
-          <a href="https://amzn.to/3FMQlHc">
-            <img
-            src="https://m.media-amazon.com/images/I/51A88IvtjGL._SX331_BO1,204,203,200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3FMQlHc'>RICH DAD POOR DAD</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={5}>
+            <Img text={"RICH DAD POOR DAD"} src={"https://m.media-amazon.com/images/I/51A88IvtjGL._SX331_BO1,204,203,200_.jpg"} href={"https://amzn.to/3FMQlHc"} />
+          </ImagesGrid>
+          </div>
       </Top>
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>5.hygiene</TopTitre>
           <p>
           Practice good hygiene, including brushing and flossing regularly, using deodorant, and keeping your hair clean and well-groomed. a good dental hygiene makes you more attractive use an electric toothbrush.
           </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3WbZ9Nx">
-            <img
-            src="https://m.media-amazon.com/images/I/81IifBHmAcL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WbZ9Nx'>Oral-B</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={5}>
+            <Img text={"Oral-B"} src={"https://m.media-amazon.com/images/I/81IifBHmAcL._AC_SL1500_.jpg"} href={"https://amzn.to/3WbZ9Nx"} />
           </ImagesGrid>
+          </div>
       </Top>
     </>
   )
