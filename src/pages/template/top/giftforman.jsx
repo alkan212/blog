@@ -101,32 +101,11 @@ function Contenu(){
           <p>
           car accessories can make good gifts for men because they can be both practical and enjoyable. They can help to keep a car clean and organized, allow men to personalize their car, provide entertainment, and improve safety{' '}
           </p>
-          <ImagesGrid col={4} row={2}>
-          <a href="https://amzn.to/3v0DU5u">
-            <img
-            src="https://m.media-amazon.com/images/I/71jcgA7iHAL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3v0DU5u'>PHONE HOLDER</a>
-          <a href="https://amzn.to/3W60J3n">
-            <img
-            src="https://m.media-amazon.com/images/I/61imcHPvBTL._AC_SL1000_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3W60J3n'>led for car</a>
-          <a href="https://amzn.to/3HJYDSu">
-            <img
-            src="https://m.media-amazon.com/images/I/61VOvCu-ruL._AC_SL1077_.jpg">
-
-            </img>
-          </a>
-          <a href='https://amzn.to/3HJYDSu'>Bluetooth Car FM Transmitter</a>
-          <a href="https://amzn.to/3hBs2DW">
-            <img
-            src="https://m.media-amazon.com/images/I/81Fp5UMFd-L._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3hBs2DW'>dash cam</a>
+          <ImagesGrid col={4} row={1} gap={3}>
+            <Img text={"PHONE HOLDER"} src={"https://m.media-amazon.com/images/I/71jcgA7iHAL._AC_SL1500_.jpg"} href={"https://amzn.to/3v0DU5u"} />
+            <Img text={"led for car"} src={"https://m.media-amazon.com/images/I/61imcHPvBTL._AC_SL1000_.jpg"} href={"https://amzn.to/3W60J3n"} />
+            <Img text={"Bluetooth Car FM Transmitter"} src={"https://m.media-amazon.com/images/I/61VOvCu-ruL._AC_SL1077_.jpg"} href={"https://amzn.to/3HJYDSu"} />
+            <Img text={"dash cam"} src={"https://m.media-amazon.com/images/I/81Fp5UMFd-L._AC_SL1500_.jpg"} href={"https://amzn.to/3hBs2DW"} />
           </ImagesGrid>
       </Top>
       <Top>
@@ -135,32 +114,11 @@ function Contenu(){
           <p>
           laptop cases can be good gifts for men because they can help to protect a laptop, add a touch of style, provide convenience, and be versatile. They are a practical and functional gift that can be used on a daily basis.{' '}
           </p>
-          <ImagesGrid col={4} row={2}>
-          <a href="https://amzn.to/3G3oOma">
-            <img
-            src="https://m.media-amazon.com/images/I/71PWO9lhxCL._AC_SL1200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G3oOma'>David Jones</a>
-          <a href="https://amzn.to/3WpIiqq">
-            <img
-            src="https://m.media-amazon.com/images/I/81qawNsmxiL._AC_SL1280_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WpIiqq'>stilord</a>
-          <a href="https://amzn.to/3hx26tc">
-            <img
-            src="https://m.media-amazon.com/images/I/81BtbFG1qvL._AC_SL1500_.jpg">
-
-            </img>
-          </a>
-          <a href='https://amzn.to/3hx26tc'>Wenger Venture</a>
-          <a href="https://amzn.to/3FGva9s">
-            <img
-            src="https://m.media-amazon.com/images/I/81ni+RRaH-L._AC_SX679_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3FGva9s'>Alfheim</a>
+          <ImagesGrid col={2} row={2}>
+            <Img text={"David Jones"} src={"https://m.media-amazon.com/images/I/71PWO9lhxCL._AC_SL1200_.jpg"} href={"https://amzn.to/3G3oOma"} />
+            <Img text={"stilord"} src={"https://m.media-amazon.com/images/I/81qawNsmxiL._AC_SL1280_.jpg"} href={"https://amzn.to/3WpIiqq"} />
+            <Img text={"Wenger Venture"} src={"https://m.media-amazon.com/images/I/81BtbFG1qvL._AC_SL1500_.jpg"} href={"https://amzn.to/3hx26tc"} />
+            <Img text={"Alfheim"} src={"https://m.media-amazon.com/images/I/81ni+RRaH-L._AC_SX679_.jpg"} href={"https://amzn.to/3FGva9s"} />
           </ImagesGrid>
       </Top>
     </>
