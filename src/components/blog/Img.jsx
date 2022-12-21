@@ -44,7 +44,7 @@ export function Img({text, src, href , ...props}) {
         <img alt={text} className="p-0 m-0 object-contain grow-0" style={imageStyle} src={src} onChange={test} />
       </div>
     
-      <div className="m-0 p-0 w-full h-full  flex justify-center items-center mt-3 relative px-6 py-7 bg-zinc-800 group-hover:bg-zinc-900 rounded-md" >
+      <div className="m-0 p-0 w-full h-full  flex justify-center items-center mt-3 relative px-6 py-7 bg-zinc-800 group-hover:bg-zinc-900 rounded-sm" >
         <a target={"_blank"} rel="noopener noreferrer" className="imgLien absolute w-full p-0 text-white no-underline text-center flex justify-center items-center text-base" href={href}>{text}</a>
       </div>
     </div>
