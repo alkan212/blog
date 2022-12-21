@@ -37,7 +37,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>It is always hard to find a gift for your husband your dad or your son. Heres 10 gifts how will be always be appreciated by a man</IntroductionText>
+        <IntroductionText>It is always hard to find a gift for your husband your dad or your son. Heres 10 gifts how will be alwaysa be appreciated by a man</IntroductionText>
       </div>
     </>
   )
