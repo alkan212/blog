@@ -7,7 +7,7 @@ const titre = "how to have a dog that smells good"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -54,13 +54,8 @@ function Contenu(){
           Regular grooming is essential for maintaining a clean and fresh-smelling dog. This includes bathing your dog regularly (depending on their breed and lifestyle, this could be anywhere from once a week to once a month), brushing their coat, and trimming their nails.you can do it your self with that kis{' '}
         
           </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3WBs9hL">
-            <img
-            src="https://m.media-amazon.com/images/I/51suyJbNhZL._SY498_BO1,204,203,200_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3WBs9hL'>Freewindo Kit</a>
+          <ImagesGrid col={1} size="50">
+            <Img text={"Freewindo Kit"} src={"https://m.media-amazon.com/images/I/51suyJbNhZL._SY498_BO1,204,203,200_.jpg"} href={"https://amzn.to/3WBs9hL"} />
           </ImagesGrid>
       </Top>
 
@@ -83,7 +78,7 @@ function Contenu(){
 
       <Top>
           <TopTitre>3.Keep your dog's living space clean</TopTitre>
-          <p>
+          <div>
           Regularly wash your dog's bedding, toys, and any other items they come into contact with to keep odors at bay.you can also perfume the dog.
           <ImagesGrid col={4}>
           <a href="https://amzn.to/3G6hPJ7">
@@ -93,7 +88,7 @@ function Contenu(){
           </a>
           <a href='https://amzn.to/3G6hPJ7'>Espree</a>
           </ImagesGrid>
-          </p>
+          </div>
       </Top>
       <Top>
           <TopTitre>4.Keep your dog hydrated</TopTitre>
@@ -151,7 +146,6 @@ export default function Home() {
       <main>
         <Content />
         <Blog />
-        <Newsletter />
       </main>
       <Footer />
     </>

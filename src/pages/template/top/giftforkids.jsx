@@ -193,7 +193,6 @@ export default function Home() {
       <main>
         <Content />
         <Blog />
-        <Newsletter />
       </main>
       <Footer />
     </>
