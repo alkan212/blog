@@ -23,7 +23,7 @@ export function Img({text, src, href , ...props}) {
   }
 
   let st = {
-    height:"100%"
+    height:"calc(100% - 56px)"
   }
 
   let stLien = {
