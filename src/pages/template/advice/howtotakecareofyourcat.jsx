@@ -1,9 +1,9 @@
 // a changer !
-const titreOnglet = "how to have a cat that smells good"
-const description = "Welcome to our blog about how to have a cat that smells good! If you're a cat owner, you know that despite their cute and cuddly appearance, cats can sometimes have less-than-pleasant odors. Whether it's litter box smells, musky fur, or just general muskiness, it's natural to want to keep your feline friend smelling fresh and clean. In this blog, we'll be sharing tips and tricks for maintaining a clean and fresh-smelling cat, from regular grooming to addressing any health issues that may be causing odors. We hope you'll find these tips helpful and that they'll help you and your cat enjoy each other's company even more!"
+const titreOnglet = "how to take care of your cat"
+const description = "Welcome to our blog about how to take care of your cat! Owning a cat can be a rewarding and enjoyable experience, but it's important to understand the proper care and attention that your feline friend needs in order to thrive. In this blog, we'll cover a range of topics related to cat care, from providing a suitable living space and offering a nutritious diet, to grooming and exercising your cat and keeping them healthy. Whether you're a seasoned cat owner or a first-time pet parent, we hope you'll find our tips and advice helpful in caring for your feline companion."
 
 const sujet = "advice"
-const titre = "how to have a cat that smells good"
+const titre = "how to htake care of your cat"
 
 
 
@@ -38,7 +38,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>Welcome to our blog about how to have a cat that smells good! If you're a cat owner, you know that despite their cute and cuddly appearance, cats can sometimes have less-than-pleasant odors. Whether it's litter box smells, musky fur, or just general muskiness, it's natural to want to keep your feline friend smelling fresh and clean. In this blog, we'll be sharing tips and tricks for maintaining a clean and fresh-smelling cat, from regular grooming to addressing any health issues that may be causing odors. We hope you'll find these tips helpful and that they'll help you and your cat enjoy each other's company even more!</IntroductionText>
+        <IntroductionText>Welcome to our blog about how to take care of your cat! Owning a cat can be a rewarding and enjoyable experience, but it's important to understand the proper care and attention that your feline friend needs in order to thrive. In this blog, we'll cover a range of topics related to cat care, from providing a suitable living space and offering a nutritious diet, to grooming and exercising your cat and keeping them healthy. Whether you're a seasoned cat owner or a first-time pet parent, we hope you'll find our tips and advice helpful in caring for your feline companion.</IntroductionText>
       </div>
     </>
   )
@@ -48,50 +48,62 @@ function Contenu(){
   return (
     <>
       <Top>
-          <TopTitre>1.Regular grooming</TopTitre>
+          <TopTitre>1.Provide a suitable living space</TopTitre>
 
           <p>
-          Regular grooming is essential for maintaining a clean and fresh-smelling cat. This includes brushing or combing your cat's coat (depending on the length and type of their fur), and trimming their nails. Grooming can also help prevent matting, which can trap odors.you can do it your self with that kis{' '}
-        
+          Make sure your cat has a comfortable place to sleep, such as a bed or crate, and a litter box for bathroom needs. Keep your cat's living space clean and free of any objects that may be harmful or dangerous.
           </p>
-          <ImagesGrid col={2} >
+          <ImagesGrid col={1} size={8}>
+            <Img text={"Bedsure Soft"} src={"https://m.media-amazon.com/images/I/41huhOE2GxL._SX300_SY300_QL70_ML2_.jpg"} href={"https://amzn.to/3hHPm31"} />
+          </ImagesGrid>
+      </Top>
+
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+            <TopTitre>2.Offer a nutritious diet</TopTitre>
+            <p>
+            Feed your cat a nutritious diet that includes high-quality cat food and treats. Consult with your veterinarian to determine the best diet for your cat's age, size, and breed.
+            </p>
+          </div>
+
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"PERFECT FIT"} src={"https://m.media-amazon.com/images/I/51qVE5yGZcL._AC_SL1002_.jpg"} href={"https://amzn.to/3YL4Qnc"} />
+          </ImagesGrid>
+        </div>
+      </Top>
+
+      <Top >
+            <TopTitre>3.Regularly groom your cat</TopTitre>
+            <p>Regular grooming helps to keep your cat's coat and skin healthy, and also helps to strengthen the bond between you and your pet. Brush your cat's coat regularly and trim their nails as needed.</p>
+            <ImagesGrid col={2} >
             <Img text={"long-haired cat"} src={"https://m.media-amazon.com/images/I/71pMj5nohaL._AC_SL1500_.jpg"} href={"https://amzn.to/3G5Vo6D"} />
             <Img text={"short-haired cat"} src={"https://m.media-amazon.com/images/I/81blkXwk3LL._AC_SL1500_.jpg"} href={"https://amzn.to/3jhf0fc"} />
           </ImagesGrid>
       </Top>
-      <Top className="mt-10">
-        <div className='w-full h-full flex justify-between items-center'>
-          <div className='pr-10'>
-          <TopTitre>2.Keep your cat's litter box clean</TopTitre>
 
-          <p>
-          A dirty litter box can be a major source of bad smells. Be sure to scoop it at least once a day, and completely empty and clean it out once a week. Use a litter deodorizer if needed, and consider switching to a litter brand that is formulated to control odors.
-          </p>
-          </div>
-          <ImagesGrid col={1} row={1} size={7}>
-            <Img text={"covered litter"} src={"https://m.media-amazon.com/images/I/81tgmC1l0fL._AC_SL1500_.jpg"} href={"https://amzn.to/3G6GGfE"} />
-          </ImagesGrid>
-          </div>
-      </Top>
       <Top className="mt-10">
-        <div className='w-full h-full flex justify-between items-center'>
-          <div className='pr-10'>
-          <TopTitre>3.Keep your cat's living space clean</TopTitre>
+            <TopTitre>4.Keep your cat hydrated</TopTitre>
+            <p>
+            Provide your cat with clean, fresh water at all times. Some cats may prefer to drink from a water fountain rather than a dish, so be sure to offer both options.
+            </p>
+      </Top>
+
+      <Top className="mt-10">
+          <TopTitre>5.Exercise your cat regularly</TopTitre>
           <p>
-          Regularly wash your cat's bedding, toys, and any other items they come into contact with to keep odors at bay.you can also perfume the cat.
+          Cats need regular exercise to stay healthy and happy. Provide your cat with toys and other objects to play with, and encourage them to engage in physical activity by playing with them or using a laser pointer.
           </p>
-          </div>
-          <ImagesGrid col={1} row={1} size={1.5}>
-            <Img text={"cBEAPHAR"} src={"https://m.media-amazon.com/images/I/71nHYSA30jL._AC_SL1500_.jpg"} href={"https://amzn.to/3PJSzf2"} />
+          <ImagesGrid col={2} >
+            <Img text={"Toy with Luminous Butterfly"} src={"https://m.media-amazon.com/images/I/51pq6+GVFzL._AC_SL1001_.jpg"} href={"https://amzn.to/3Wn9MNQ"} />
+            <Img text={"BiuCat"} src={"https://m.media-amazon.com/images/I/71WPsXtqm5L._AC_SL1500_.jpg"} href={"https://amzn.to/3jmm9eg"} />
           </ImagesGrid>
-          </div>
       </Top>
       <Top>
-          <TopTitre>4.Address any health issues</TopTitre>
+      <TopTitre>6.Keep your cat healthy</TopTitre>
           <p>
-          If your cat has a particular odor that doesn't go away with regular grooming, it could be a sign of a health issue such as dental problems or a skin condition. In this case, it's important to consult with a veterinarian to determine the cause and get proper treatment.
+          Regularly check your cat for signs of illness, such as changes in appetite, behavior, or appearance. If you notice any unusual symptoms, consult a veterinarian for proper treatment.
           </p>
-
       </Top>
     </>
   )
@@ -104,7 +116,11 @@ function Conclusion(){
         <h2>Conclusion</h2>
         <p>
 
-        We hope you've found these tips for keeping your cat smelling fresh and clean helpful! By following a regular grooming and cleaning routine, staying on top of litter box maintenance, and addressing any health issues that may be causing odors, you can help your cat maintain a pleasant smell. Remember, keeping your cat smelling good is just one part of being a responsible pet owner – it's also important to provide your cat with proper nutrition, exercise, and medical care to ensure their overall health and well-being. Thanks for reading, and we hope you and your feline friend enjoy a lifetime of fresh, clean smells!
+        In conclusion, taking care of a dog requires a commitment to providing a safe, comfortable, and enriching environment for your furry friend. By following the tips and guidelines outlined in this blog, you can help ensure that your dog stays healthy and happy for years to come. Remember to provide a suitable living space, offer a nutritious diet, keep your dog hydrated, groom your dog regularly, exercise your dog regularly, and keep your dog healthy by regularly checking for signs of illness. With proper care and attention, your dog can be a beloved and rewarding companion.
+
+
+
+
         </p>
 
     </>

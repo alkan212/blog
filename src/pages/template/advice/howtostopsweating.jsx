@@ -7,7 +7,7 @@ const titre = "how to stop sweating"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -54,22 +54,19 @@ function Contenu(){
           Wearing loose, lightweight clothing and staying in a cool environment can help reduce sweating.{' '}
           </p>
       </Top>
-
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>2.Use antiperspirants</TopTitre>
 
           <p>
           Antiperspirants contain aluminum-based compounds that block the sweat glands and help reduce sweating.It works very well.
           </p>
-          <ImagesGrid col={2}>
-          <a href="https://amzn.to/3V7GJME">
-            <img
-            src="https://m.media-amazon.com/images/I/61LjpgadHZL._AC_SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3V7GJME'>etiaxil</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"etiaxil"} src={"https://m.media-amazon.com/images/I/61LjpgadHZL._AC_SL1500_.jpg"} href={"https://amzn.to/3V7GJME"} />
           </ImagesGrid>
-
+          </div>
       </Top>
 
       <Top>

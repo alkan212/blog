@@ -7,7 +7,7 @@ const titre = "how to resurrect a plant"
 
 
 
-
+import { Img } from '@/components/blog/Img'
 import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import Head from 'next/head'
 import { Newsletter } from '@/components/Newsletter'
@@ -71,19 +71,18 @@ function Contenu(){
           Does the plant have access to enough light, or is it getting too much or too little? Adjusting the plant's light exposure may help it regain its strength.
           </p>         
       </Top>
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>4.Fertilize</TopTitre>
           <p>
           A healthy plant requires the right nutrients to thrive. Using a balanced fertilizing solution can help provide the necessary nutrients and boost the plant's growth.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3PH5E8C">
-            <img
-            src="https://m.media-amazon.com/images/I/71mbTs1IAiL._SL1500_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3PH5E8C'>Fertiligène</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"Fertiligène"} src={"https://m.media-amazon.com/images/I/71mbTs1IAiL._SL1500_.jpg"} href={"https://amzn.to/3PH5E8C"} />
           </ImagesGrid>
+          </div>
       </Top>
       <Top>
           <TopTitre>5.Prune dead or damaged foliage</TopTitre>
@@ -91,19 +90,18 @@ function Contenu(){
           Removing dead or damaged foliage can help the plant redirect its energy towards healthier growth.
           </p>
       </Top>
-      <Top>
+      <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
           <TopTitre>6.Repot the plant</TopTitre>
           <p>
           If the plant is rootbound or the soil is unhealthy, repotting the plant in fresh soil may help it recover.
           </p>
-          <ImagesGrid col={4}>
-          <a href="https://amzn.to/3G6TCSQ">
-            <img
-            src="https://m.media-amazon.com/images/I/61DyeMQNRNL._AC_SL1024_.jpg">
-            </img>
-          </a>
-          <a href='https://amzn.to/3G6TCSQ'>potting</a>
+          </div>
+          <ImagesGrid col={1} row={1} size={3}>
+            <Img text={"potting"} src={"https://m.media-amazon.com/images/I/61DyeMQNRNL._AC_SL1024_.jpg"} href={"https://amzn.to/3G6TCSQ"} />
           </ImagesGrid>
+          </div>
       </Top>
       <Top>
           <TopTitre>7.Be patient</TopTitre>
