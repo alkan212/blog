@@ -8,11 +8,13 @@ import platform
 startPath = os.path.join(os.getcwd(), "src/pages/")
 files = []
 filesB64 = []
+data = {}
+data["current_files"] = {}
+data["start_files"] = []
 
 
-
-os.system("git fetch")
-os.system("git reset --hard origin/main")
+# os.system("git fetch")
+# os.system("git reset --hard origin/main")
 
 sleep(1)
 
@@ -27,19 +29,22 @@ for r, d, f in os.walk(startPath):
 
 for file in files:
     with open(file, "rb") as f:
-        filesB64.append(b64encode(f.read()))
+        filename = file.replace("\\", "/").split("/")[-1]
+        relpath = "src/"+file.replace("\\", "/").split("src/")[1]
+        data["start_files"].append(relpath)
+
+        data["current_files"][filename] = {
+            "filename":filename,
+            "relpath":relpath,
+            "abspath":file,
+            "data":b64encode(f.read()).decode(),
+        }
 
 
-with open("files_data.txt", "w") as f:
-    i = 0
-    for file_data in filesB64:
-        if i <= 0:
-            f.write(file_data.decode())
-        else:
-            f.write("/***s***/")
-            f.write(file_data.decode())
 
-        i+= 1
+with open('files_data.json', 'w') as f:
+    json.dump(data, f)
+
         
 
 

@@ -6,28 +6,115 @@ import platform
 import sys
 
 startPath = os.path.join(os.getcwd(), "src/pages/")
-files = []
-relative_files = []
-filenames = []
-filesB64 = []
-updated_file = []
 
 
 # r=root, d=directories, f = files
-for r, d, f in os.walk(startPath):
-    for file in f:
-        r = r.replace("\\", "/")
-        if file.endswith(".jsx"):
-            filenames.append(file)
-            
-            relative_files.append(("src"+(os.path.join(r, file).split("/src")[1])).replace("\\", "/"))
-            files.append(os.path.join(r, file))
+
+def getFiles():
+    response = []
+    for r, d, f in os.walk(startPath):
+        for file in f:
+            r = r.replace("\\", "/")
+            if file.endswith(".jsx"):
+                response.append(os.path.join(r, file))
+
+    return response
+
+
+def getFilesRelPath():
+    response = []
+    for r, d, f in os.walk(startPath):
+        for file in f:
+            r = r.replace("\\", "/")
+            if file.endswith(".jsx"):
+                relpath = "src/"+os.path.join(r, file).replace("\\", "/").split("src/")[1]
+                response.append(relpath)
+
+    return response
 
 
 
-for file in files:
-    with open(file, "rb") as f:
-        filesB64.append(b64encode(f.read()).decode())
+def getFilesData():
+    data = {}
+    data["start_files"] = []
+    data["current_files"] = {}
+
+    for file in getFiles():
+        with open(file, "rb") as f:
+            filename = file.replace("\\", "/").split("/")[-1]
+            relpath = "src/"+file.replace("\\", "/").split("src/")[1]
+            data["start_files"].append(relpath)
+
+            data["current_files"][filename] = {
+                "filename":filename,
+                "relpath":relpath,
+                "abspath":file,
+                "data":b64encode(f.read()).decode(),
+            }
+
+    return data
+
+files_data = getFilesData()
+
+
+def getStartData():
+    with open('files_data.json', 'r') as f:
+        data = json.load(f)
+        return data["current_files"]
+
+
+def getStartFiles():
+    with open('files_data.json', 'r') as f:
+        data = json.load(f)
+        return data["start_files"]
+
+
+
+
+
+def getNewFiles():
+    response = []
+
+    start_files = getStartFiles()
+    current_files = getFilesRelPath()
+
+    for file in current_files:
+        if file not in start_files:
+            response.append(file)
+
+    return response
+
+
+
+
+def getModifiedFiles():
+    response = []
+    start_data = getStartData()
+    current_data = files_data["current_files"]
+
+    for key in start_data.keys():
+        try:
+            if(current_data[key]["data"] != start_data[key]["data"]):
+                response.append(current_data[key]["relpath"])
+        except:
+            continue
+
+    return response
+
+
+def getDeletedFile():
+    response = []
+    start_data = getStartData()
+    current_data = files_data["current_files"]
+
+    for key in start_data.keys():
+        try:
+            if(current_data[key]["filename"] != start_data[key]["filename"]):
+                pass
+        except:
+            response.append(start_data[key]["relpath"])
+
+    return response
 
 
 class bcolors:
@@ -41,46 +128,45 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-with open("files_data.txt", "r") as f:
-    last_filesB64 = f.read().split("/***s***/")
-
-    for i in range(len(last_filesB64)):
-        last = last_filesB64[i]
-        current = filesB64[i]
-
-        if(last == current):
-            print(filenames[i], bcolors.OKGREEN+"same"+bcolors.ENDC)
-        else:
-            updated_file.append(relative_files[i])
-            print(filenames[i], bcolors.FAIL+"Updated"+bcolors.ENDC)
 
 
 
-if len(updated_file) <= 0:
-    print("\n")
-    print(f'{bcolors.OKCYAN}Everything is up to date{bcolors.ENDC}')
-    sys.exit()
-
-
-print("\n")
-for file in updated_file:
-    os.system(f'git add {file}')
-    print(f'git add {bcolors.OKCYAN}{file}{bcolors.ENDC}')
-print("\n")
-
-os.system(f'git commit -m "automatic"')
-os.system(f'git pull -f origin main')
-os.system(f'git push -f origin main')
+newFiles = getNewFiles()
+modifiedFiles = getModifiedFiles()
+deletedFile = getDeletedFile()
 
 
 
 
-os.system(f'python3 {os.getcwd()}/commands/start.py'.replace("\\", "/"))
+def git():
+    if len(newFiles) == 0 and len(modifiedFiles) == 0 and len(deletedFile) == 0:
+        print(f"{bcolors.OKCYAN}Rien a changer{bcolors.ENDC}")
+        return None
+
+    for f in newFiles:
+        print(f"{bcolors.OKCYAN}New File : {bcolors.ENDC}{f}")
+        os.system(f"git add {f}")
+    if len(newFiles) > 0: print("\n")
+
+    for f in modifiedFiles:
+        print(f"{bcolors.OKGREEN}Modified File : {bcolors.ENDC}{f}")
+        os.system(f"git add {f}")
+    if len(modifiedFiles) > 0: print("\n")
+
+    for f in deletedFile:
+        print(f"{bcolors.FAIL}Deleted File : {bcolors.ENDC}{f}")
+        os.system(f"git add {f}")
+    if len(deletedFile) > 0: print("\n")
+
+    sleep(1)
+
+    os.system('git commit -m "automatic"')
+
+    sleep(1)
+
+    os.system('git push -f origin main')
+
+    os.system('python3 commands/start.py')
 
 
-
-print("\n")
-for file in updated_file:
-    f = file.split("/")[-1]
-    print(f'{bcolors.OKGREEN}{f}{bcolors.ENDC} Updated')
-print("\n")
+git()
