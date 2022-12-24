@@ -1,9 +1,9 @@
 // a changer !
-const titreOnglet = "  what is a good cage for hamster "
-const description = "Choosing the right cage for a hamster is an important decision for any pet owner. Hamsters are active and energetic creatures that need plenty of room to run and play, and a good cage can help to keep them healthy and happy. In this blog, we will explore what makes a good cage for a hamster and provide some tips on how to choose the best option for your furry friend."
+const titreOnglet = "  what is a good cage for bird "
+const description = "When it comes to choosing the right cage for a bird, there are a few important factors to consider. A good cage will provide your feathered friend with a safe, comfortable, and stimulating environment, and can help to ensure their overall well-being and happiness. In this blog, we will explore what makes a good cage for a bird and provide some tips on how to choose the best option for your pet."
 
 const sujet = "advice"
-const titre = "what is a good cage for hamster"
+const titre = "what is a good cage for bird"
 
 
 
@@ -38,7 +38,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>Choosing the right cage for a hamster is an important decision for any pet owner. Hamsters are active and energetic creatures that need plenty of room to run and play, and a good cage can help to keep them healthy and happy. In this blog, we will explore what makes a good cage for a hamster and provide some tips on how to choose the best option for your furry friend.
+        <IntroductionText>When it comes to choosing the right cage for a bird, there are a few important factors to consider. A good cage will provide your feathered friend with a safe, comfortable, and stimulating environment, and can help to ensure their overall well-being and happiness. In this blog, we will explore what makes a good cage for a bird and provide some tips on how to choose the best option for your pet.
 </IntroductionText>
       </div>
     </>
@@ -51,35 +51,35 @@ function Contenu(){
           <Top className="mt-10">
           <TopTitre>1.Spacious</TopTitre>
           <p>
-          Hamsters need plenty of room to move around and explore, so a cage that is too small can lead to boredom and frustration. Look for a cage that provides at least 360 square inches of floor space for your hamster.{' '}      
+          Birds need plenty of room to move around and stretch their wings, so a cage that is too small can lead to boredom and frustration. Look for a cage that provides at least 2-3 times the bird's wingspan in width and height.{' '}      
           </p>
       </Top>
       <Top>
           <TopTitre>2.Well-ventilated</TopTitre>
 
           <p>
-          Poor ventilation can lead to respiratory problems in hamsters, so look for a cage with plenty of airflow.
+          Good airflow is important for the overall health and well-being of birds, so look for a cage with plenty of ventilation.
           </p>
       </Top>
 
       <Top>
           <TopTitre>3.Durable material</TopTitre>
           <p>
-          Plastic cages are lightweight and easy to clean, but they may not be as sturdy as metal or wire cages. Metal and wire cages are more durable, but they may be more difficult to clean and may not provide as much insulation for the hamster.
+          Metal or powder-coated metal cages are generally the most durable and long-lasting options, but plastic and wooden cages can also be good choices as long as they are sturdy and well-made.
           </p>
 
       </Top>
       <Top>
           <TopTitre>4.Easy to access and maintain</TopTitre>
           <p>
-          Choose a cage with doors that open easily and make sure there are enough feeding and watering stations to keep your hamster well-fed and hydrated. Overall, taking the time to research and choose the right cage for your hamster can go a long way in ensuring your furry friend's well-being and happiness.
+          Choose a cage with doors that open easily and make sure there are enough feeding and watering stations to keep your bird well-fed and hydrated. Overall, taking the time to research and choose the right cage for your bird can go a long way in ensuring your feathered friend's happiness and well-being.
           </p>
       </Top>
       <Top>
           <TopTitre>here is a selection that we choose for you</TopTitre>
           <ImagesGrid col={2} row={1} gap={4} >
-            <Img text={"Zolux Rody 3"} src={"https://m.media-amazon.com/images/I/71un63msANL._AC_SL1072_.jpg"} href={"https://amzn.to/3Vld4j9"} />
-            <Img text={"Ferplast FSC"} src={"https://m.media-amazon.com/images/I/71Ugnb8X-+L._AC_SL1000_.jpg"} href={"https://amzn.to/3VnMGoV"} />
+            <Img text={"UISEBRT"} src={"https://m.media-amazon.com/images/I/71j77vEefLL._AC_SL1000_.jpg"} href={"https://amzn.to/3VnXALd"} />
+            <Img text={"Zolux Neo"} src={"https://m.media-amazon.com/images/I/41kHIq-FwwL._AC_SL1125_.jpg"} href={"https://amzn.to/3I0rCS8"} />
           </ImagesGrid>
           </Top>
     </>
@@ -93,7 +93,7 @@ function Conclusion(){
         <h2>Conclusion</h2>
         <p>
 
-        In conclusion, a good cage for a hamster should be spacious, well-ventilated, made of a durable material, and easy to access and maintain. By following these guidelines, you can ensure that your hamster has a happy and healthy home.
+        In conclusion, a good cage for a bird should be spacious, well-ventilated, made of a durable material, and easy to access and maintain. By following these guidelines, you can ensure that your bird has a happy and healthy home.
         </p>
 
     </>
