@@ -1,5 +1,5 @@
 // a changer !
-const titreOnglet = "  how to have a happy hamster "
+const titreOnglet = "  what is a good cage for hamster "
 const description = "Choosing the right cage for a hamster is an important decision for any pet owner. Hamsters are active and energetic creatures that need plenty of room to run and play, and a good cage can help to keep them healthy and happy. In this blog, we will explore what makes a good cage for a hamster and provide some tips on how to choose the best option for your furry friend."
 
 const sujet = "advice"
@@ -38,7 +38,7 @@ function Introduction(){
         <Sujet className={color}>{sujet}</Sujet>
         <Titre>{titre}</Titre>
       
-        <IntroductionText>Welcome to our blog on how to make your hamster happy! Hamsters are popular pets due to their small size and adorable personalities. However, like all pets, they require proper care and attention to thrive. In this blog, we will discuss various ways to keep your hamster happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to ensure your hamster is content. We will also discuss the importance of social interaction and exercise for your hamster's overall well-being. Whether you are a new hamster owner or an experienced pet parent, we hope this blog will provide valuable information on how to care for your furry friend.
+        <IntroductionText>Choosing the right cage for a hamster is an important decision for any pet owner. Hamsters are active and energetic creatures that need plenty of room to run and play, and a good cage can help to keep them healthy and happy. In this blog, we will explore what makes a good cage for a hamster and provide some tips on how to choose the best option for your furry friend.
 </IntroductionText>
       </div>
     </>
@@ -49,61 +49,39 @@ function Contenu(){
   return (
     <>
           <Top className="mt-10">
-        <div className='w-full h-full flex justify-between items-center'>
-          <div className='pr-10'>
-          <TopTitre>1.Provide a spacious cage</TopTitre>
+          <TopTitre>1.Spacious</TopTitre>
           <p>
-          Hamsters need plenty of room to explore and play. Make sure that the cage is at least 24 inches long, 12 inches wide, and 12 inches tall.{' '}      
+          Hamsters need plenty of room to move around and explore, so a cage that is too small can lead to boredom and frustration. Look for a cage that provides at least 360 square inches of floor space for your hamster.{' '}      
           </p>
-          </div>
-          <ImagesGrid col={1} row={1} size={5}>
-            <Img text={"Zolux Cage"} src={"https://m.media-amazon.com/images/I/61nM7XMT8gL._AC_.jpg"} href={"https://amzn.to/3WeXdno"} />
-          </ImagesGrid>
-          </div>
       </Top>
       <Top>
-          <TopTitre>2.Keep the cage clean</TopTitre>
+          <TopTitre>2.Well-ventilated</TopTitre>
 
           <p>
-          Clean the cage regularly to keep your hamster healthy and happy. This includes removing soiled bedding and food debris, as well as disinfecting the cage.
+          Poor ventilation can lead to respiratory problems in hamsters, so look for a cage with plenty of airflow.
           </p>
       </Top>
 
       <Top>
-          <TopTitre>3.Offer a variety of toys</TopTitre>
+          <TopTitre>3.Durable material</TopTitre>
           <p>
-          Hamsters love to play and chew, so provide plenty of toys for them to interact with. This can include chew toys, tunnels, and balls.
+          Plastic cages are lightweight and easy to clean, but they may not be as sturdy as metal or wire cages. Metal and wire cages are more durable, but they may be more difficult to clean and may not provide as much insulation for the hamster.
           </p>
+
+      </Top>
+      <Top>
+          <TopTitre>4.Easy to access and maintain</TopTitre>
+          <p>
+          Choose a cage with doors that open easily and make sure there are enough feeding and watering stations to keep your hamster well-fed and hydrated. Overall, taking the time to research and choose the right cage for your hamster can go a long way in ensuring your furry friend's well-being and happiness.
+          </p>
+      </Top>
+      <Top>
+          <TopTitre>here is a selection that we choose for you</TopTitre>
           <ImagesGrid col={2} row={1} gap={4} >
-            <Img text={"FINEVERNEK"} src={"https://m.media-amazon.com/images/I/71fBgIWzE-L._AC_SL1500_.jpg"} href={"https://amzn.to/3FKtBqZ"} />
-            <Img text={"ball"} src={"https://m.media-amazon.com/images/I/71bxtUHxoaL._AC_SL1500_.jpg"} href={"https://amzn.to/3G94lw6"} />
+            <Img text={"Zolux Rody 3"} src={"https://m.media-amazon.com/images/I/71un63msANL._AC_SL1072_.jpg"} href={"https://amzn.to/3Vld4j9"} />
+            <Img text={"Ferplast FSC"} src={"https://m.media-amazon.com/images/I/71Ugnb8X-+L._AC_SL1000_.jpg"} href={"https://amzn.to/3VnMGoV"} />
           </ImagesGrid>
-      </Top>
-      <Top>
-          <TopTitre>4.Give your hamster exercise</TopTitre>
-          <p>
-          Hamsters are active creatures and need time to run and play outside of their cage. Set up a hamster wheel or provide a playpen for your hamster to explore.
-          </p>
-      </Top>
-      <Top>
-      <Top className="mt-10">
-        <div className='w-full h-full flex justify-between items-center'>
-          <div className='pr-10'>
-          <TopTitre>5.Provide a healthy diet</TopTitre>
-          <p>
-          Feed your hamster a balanced diet of fresh fruits and vegetables, as well as a high-quality hamster mix. Avoid giving your hamster too many treats, as this can lead to obesity.
-          </p>
-          </div>
-          <ImagesGrid col={1} row={1} size={5}>
-            <Img text={"Vitakraft"} src={"https://m.media-amazon.com/images/I/81n+4mvyXUL._AC_SL1500_.jpg"} href={"https://amzn.to/3G99Fjh"} />
-          </ImagesGrid>
-          </div>
-      </Top>
-          <TopTitre>6.Give your hamster social interaction</TopTitre>
-          <p>
-          Hamsters are social animals and thrive on interaction with their owners. Spend time talking to your hamster and handling them daily to keep them happy and well-adjusted.
-          </p>
-      </Top>
+          </Top>
     </>
   )
 }
@@ -115,7 +93,7 @@ function Conclusion(){
         <h2>Conclusion</h2>
         <p>
 
-        In conclusion, there are many steps you can take to ensure that your hamster is happy and healthy. From providing a spacious and clean cage to offering a variety of toys and a healthy diet, there are many things you can do to keep your hamster entertained and well-nourished. It is also important to give your hamster plenty of social interaction and exercise to keep them active and engaged. By following these tips and taking good care of your hamster, you can help them live a long and happy life. Remember, every hamster is unique and may have different needs, so it is important to pay attention to your hamster's behavior and adjust your care routine as needed. With a little love and attention, your hamster will be a happy and beloved member of your family.
+        In conclusion, a good cage for a hamster should be spacious, well-ventilated, made of a durable material, and easy to access and maintain. By following these guidelines, you can ensure that your hamster has a happy and healthy home.
         </p>
 
     </>

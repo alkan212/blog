@@ -53,7 +53,7 @@ function Contenu(){
           <div className='pr-10'>
           <TopTitre>1.Provide a spacious cage</TopTitre>
           <p>
-          Hamsters need plenty of room to explore and play. Make sure that the cage is at least 24 inches long, 12 inches wide, and 12 inches tall.{' '}      
+          Hamsters need plenty of room to explore and play. Make sure that the cage is at least 24 inches long, 12 inches wide, and 12 inches tall.Click <a href={"whatisagoodcageforhamster"}>here</a> too see our blog about what is a good cage for hamster{' '}      
           </p>
           </div>
           <ImagesGrid col={1} row={1} size={5}>
