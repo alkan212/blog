@@ -13,8 +13,8 @@ data["current_files"] = {}
 data["start_files"] = []
 
 
-# os.system("git fetch")
-# os.system("git reset --hard origin/main")
+os.system("git fetch")
+os.system("git reset --hard origin/main")
 
 sleep(1)
 
