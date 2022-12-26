@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/template/advice/mydogdoesnotsmellgood": [
+    "/template/top/crypto/exchange_dydx_spot": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/template/advice/mydogdoesnotsmellgood.js"
+      "static/chunks/pages/template/top/crypto/exchange_dydx_spot.js"
     ]
   },
   "ampFirstPages": []
