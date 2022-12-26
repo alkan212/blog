@@ -1,5 +1,5 @@
 // a changer !
-const titreOnglet = "Giftsaaaaaaaaaaaaaaaaaaa for the Gardener: Ideas for the Green Thumb in Your Life"
+const titreOnglet = "Gifts for the Gardener: Ideas for the Green Thumb in Your Life"
 const description = "Gardening is a hobby that brings joy and beauty to people's lives. If you have a green thumb in your life, chances are they love spending time in their garden and taking care of their plants. If you're looking for the perfect gift for the gardener in your life, here are some ideas to get you started."
 
 const sujet = "gifts"
