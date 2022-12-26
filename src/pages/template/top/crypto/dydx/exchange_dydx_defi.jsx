@@ -43,7 +43,7 @@ function Introduction(){
         <Titre>{titre}</Titre>
 
         <Link target={"_blank"} href={exchange_link}>
-          <Image className='mt-5' alt="" width={2000} height={1000} src={exchange_img}/>
+          <img className='mt-5' alt="" src={exchange_img}/>
         </Link> 
 
         <VisitButton className={`bg-${color}-500 hover:bg-${color}-600`} href={exchange_link}>Visit {exchange_name}</VisitButton>
