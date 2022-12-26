@@ -59,8 +59,7 @@ function VisitButton({ href ="#" , className ="" , ...props }) {
         rel: "noreferrer",
         href: href,
         className: "px-7 py-3 bg-indigo-500 hover:bg-indigo-600 text-white rounded-md no-underline text-lg mt-6 " + className,
-        ...props,
-        children: "ZZZZZZZZZZZZZZZ"
+        ...props
     });
 }
 
