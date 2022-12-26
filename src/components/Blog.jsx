@@ -57,7 +57,7 @@ const posts = [
   },
 ]
 
-export function Blog() {
+export function Blog({sujet=""}) {
   return (
     <div className="relative bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28 border-t border-slate-100">
       <div className="absolute inset-0">
