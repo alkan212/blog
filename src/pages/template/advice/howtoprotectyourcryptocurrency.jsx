@@ -1,5 +1,4 @@
 // a changer !
-const titreOnglet = "  how to protect your crypto-currency  "
 const description = "Cryptocurrency has gained popularity as a digital asset for investment and for use in financial transactions, but it's important to remember that it is not without risks. One of the main risks associated with cryptocurrency is the potential for it to be stolen or hacked. Therefore, it's essential to take steps to secure your cryptocurrency and protect it from unauthorized access."
 
 const sujet = "crypto"
@@ -119,7 +118,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{titreOnglet}</title>
+        <title>{"Weknow -"+titre}</title>
         <meta
           name="description"
           content={description}
@@ -128,7 +127,7 @@ export default function Home() {
       <Header />
       <main>
         <Content />
-        <Blog />
+        <Blog sujet={sujet}/>
       </main>
       <Footer />
     </>
