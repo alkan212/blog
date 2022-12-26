@@ -51,13 +51,10 @@ function Contenu(){
         <div className='w-full h-full flex justify-between items-center'>
           <div className='pr-10'>
           <TopTitre>1.books</TopTitre>
-
           <p>
           This may seem obvious, but bookworms can never have too many books! Consider getting them a new release or a classic that they've always wanted to read.{' '}
-        
           </p>
           </div>
-
           <ImagesGrid col={1} row={1} size={50}>
             <Img text={"Harry Potter"} src={"https://m.media-amazon.com/images/I/71rOzy4cyAL.jpg"} href={"https://amzn.to/3G3plEu"} />
           </ImagesGrid>
@@ -66,7 +63,6 @@ function Contenu(){
 
       <Top>
           <TopTitre>2.Bookmarks</TopTitre>
-
           <p>
           Bookmarks are a practical and thoughtful gift for bookworms. Consider getting them a bookmark with a quote from their favorite book or a bookmark with a design that reflects their interests.
           </p>

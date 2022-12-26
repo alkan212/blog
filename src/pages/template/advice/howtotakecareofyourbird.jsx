@@ -51,7 +51,7 @@ function Contenu(){
       <Top>
           <TopTitre>1.Provide a suitable living space</TopTitre>
           <p>
-          Make sure your bird has a spacious, well-ventilated cage that is appropriate for its size and species. The cage should be large enough for the bird to move around, stretch its wings, and play. It should also be equipped with perches, toys, and other objects for the bird to interact with.
+          Make sure your bird has a spacious, well-ventilated cage that is appropriate for its size and species. The cage should be large enough for the bird to move around, stretch its wings, and play. It should also be equipped with perches, toys, and other objects for the bird to interact with. Click <a href={"whatisagoodcageforbird"}>here</a> too see our blog about what is a good cage for hamster
           </p>
           <ImagesGrid col={2} row={1} gap={4} >
             <Img text={"Vision"} src={"https://m.media-amazon.com/images/I/81rVasA2qbS._AC_SL1500_.jpg"} href={"https://amzn.to/3G9rM8x"} />
