@@ -1,5 +1,3 @@
-import { Image } from "@/components/Image"
-
 const posts = [
   {
     title: 'Boost your conversion rate',
@@ -57,21 +55,24 @@ const posts = [
   },
 ]
 
-export function Blog({sujet=""}) {
+export function Blog() {
   return (
-    <div className="relative bg-white px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28 border-t border-slate-100">
+    <div className="relative px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28 bg-gray-100">
       <div className="absolute inset-0">
-        <div className="h-1/3 bg-white sm:h-2/3" />
+        <div className="h-1/3  sm:h-2/3" />
       </div>
       <div className="relative mx-auto max-w-7xl">
         <div className="text-center">
-          <h2 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl">May be interested ?</h2>
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
+          you might also be interested in this other article
+          </p>
         </div>
         <div className="mx-auto mt-12 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
           {posts.map((post) => (
-            <div key={post.title} className="flex flex-col overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-xl east-out duration-100">
+            <div key={post.title} className="flex flex-col overflow-hidden rounded-lg shadow-lg">
               <div className="flex-shrink-0">
-                <Image className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
+                <img className="h-48 w-full object-cover" src={post.imageUrl} alt="" />
               </div>
               <div className="flex flex-1 flex-col justify-between bg-white p-6">
                 <div className="flex-1">
@@ -89,7 +90,7 @@ export function Blog({sujet=""}) {
                   <div className="flex-shrink-0">
                     <a href={post.author.href}>
                       <span className="sr-only">{post.author.name}</span>
-                      <Image className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
+                      <img className="h-10 w-10 rounded-full" src={post.author.imageUrl} alt="" />
                     </a>
                   </div>
                   <div className="ml-3">
