@@ -77,9 +77,10 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Home</MobileNavLink>
-            <MobileNavLink href="#testimonials">Crypto</MobileNavLink>
-            <MobileNavLink href="#pricing">Product</MobileNavLink>
+            <MobileNavLink href="/">Home</MobileNavLink>
+            <MobileNavLink href="/#crypto">Crypto</MobileNavLink>
+            <MobileNavLink href="/#gifts">Product</MobileNavLink>
+            <MobileNavLink href="/#advice">Advice</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </Popover.Panel>
@@ -99,9 +100,10 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Home</NavLink>
-              <NavLink href="#testimonials">Crypto</NavLink>
-              <NavLink href="#pricing">Product</NavLink>
+              <NavLink href="/">Home</NavLink>
+              <NavLink href="/#crypto">Crypto</NavLink>
+              <NavLink href="/#gifts">Product</NavLink>
+              <NavLink href="/#advice">Advice</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

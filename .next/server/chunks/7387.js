@@ -230,16 +230,20 @@ function MobileNavigation() {
                             className: "absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5",
                             children: [
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MobileNavLink, {
-                                    href: "#features",
+                                    href: "/",
                                     children: "Home"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MobileNavLink, {
-                                    href: "#testimonials",
+                                    href: "/#crypto",
                                     children: "Crypto"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MobileNavLink, {
-                                    href: "#pricing",
+                                    href: "/#gifts",
                                     children: "Product"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(MobileNavLink, {
+                                    href: "/#advice",
+                                    children: "Advice"
                                 }),
                                 /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("hr", {
                                     className: "m-2 border-slate-300/40"
@@ -277,16 +281,20 @@ function Header() {
                                 className: "hidden md:flex md:gap-x-6",
                                 children: [
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_NavLink__WEBPACK_IMPORTED_MODULE_8__/* .NavLink */ .O, {
-                                        href: "#features",
+                                        href: "/",
                                         children: "Home"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_NavLink__WEBPACK_IMPORTED_MODULE_8__/* .NavLink */ .O, {
-                                        href: "#testimonials",
+                                        href: "/#crypto",
                                         children: "Crypto"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_NavLink__WEBPACK_IMPORTED_MODULE_8__/* .NavLink */ .O, {
-                                        href: "#pricing",
+                                        href: "/#gifts",
                                         children: "Product"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_NavLink__WEBPACK_IMPORTED_MODULE_8__/* .NavLink */ .O, {
+                                        href: "/#advice",
+                                        children: "Advice"
                                     })
                                 ]
                             })

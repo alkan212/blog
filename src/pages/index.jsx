@@ -32,10 +32,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Weknow - Just ask , We know</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Welcome to Weknow, the ultimate destination for all things crypto, trading, and Amazon products! Our blog is a one-stop shop for the latest news, trends, and analysis in these exciting fields. Whether you're a seasoned investor looking to stay up-to-date on the latest market movements, or a beginner just starting out in the world of crypto and trading, we've got you covered."
         />
       </Head>
       <Header />
