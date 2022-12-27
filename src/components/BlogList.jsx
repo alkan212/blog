@@ -82,7 +82,7 @@ export function BlogList({data, sujet="", ne=false}) {
         
 
         </div>
-        <div className="scrollbar mt-5 flex justify-flex flex-nowrap w-full max-w-full pb-4 space-x-6 overflow-x-auto">
+        <div id={sujet} style={{offsetAnchor:"-200% -200%"}} className="scrollbar mt-5 flex justify-flex flex-nowrap w-full max-w-full pb-4 space-x-6 overflow-x-auto">
           {data.slice(0,20).map((post) => (
             <a href={`/blog/${post.href}`} key={post.title} className="w-full min-w-[350px] max-w-[350px] flex flex-col overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-xl east-out duration-100">
               <div className="flex-shrink-0">
