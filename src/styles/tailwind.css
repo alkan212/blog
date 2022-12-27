@@ -5,3 +5,25 @@
 #__next {
   min-height: 100%;
 }
+
+
+.scrollbar::-webkit-scrollbar {
+  width: 7px;
+  height:7px;
+  border-radius: 10px;
+}
+
+/* Track */
+.scrollbar::-webkit-scrollbar-track {
+  background: #ececec;
+}
+
+/* Handle */
+.scrollbar::-webkit-scrollbar-thumb {
+  background: rgb(122, 122, 122);
+}
+
+/* Handle on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgb(85, 85, 85);
+}

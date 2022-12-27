@@ -18,8 +18,10 @@ export default function Home() {
         />
       </Head>
       <Header />
-      <main>
-        <Blog />
+      <main className='bg-gray-50'>
+        <Blog sujet='' ne={true} />
+        <Blog sujet='crypto' />
+        <Blog sujet='product' />
       </main>
       <Footer />
     </>
