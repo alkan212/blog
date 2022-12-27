@@ -6,6 +6,27 @@ import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Blog } from '@/components/Blog'
 import { UserHeader } from '@/components/UserHeader'
+import data from "../blogList.js"
+
+
+
+let eles = data;
+let eles_key = Object.keys(eles);
+let blogSujet = []
+
+for (let i = 0; i < eles_key.length; i++) {
+  const element = eles_key[i];
+  let data = eles[element]
+
+  if(element == "crypto"){
+    blogSujet.push(<Blog key={element} sujet={element} data={data} ne={true} />);
+  }else{
+    blogSujet.push(<Blog key={element} sujet={element} data={data} />);
+  }
+  
+}
+
+
 
 export default function Home() {
   return (
@@ -19,9 +40,9 @@ export default function Home() {
       </Head>
       <Header />
       <main className='bg-gray-50'>
-        <Blog sujet='' ne={true} />
-        <Blog sujet='crypto' />
-        <Blog sujet='product' />
+
+        {blogSujet}
+
       </main>
       <Footer />
     </>
