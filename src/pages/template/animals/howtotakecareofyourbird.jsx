@@ -137,7 +137,7 @@ export default function Home() {
       <Header />
       <main>
         <Content />
-        <Blog />
+        <Blog sujet={sujet}/>
       </main>
       <Footer />
     </>
