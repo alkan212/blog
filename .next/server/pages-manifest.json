@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-<<<<<<< HEAD
-  "/template/oneImage/top10cryptoExchanges2023": "pages/template/oneImage/top10cryptoExchanges2023.js"
-=======
-  "/template/oneImage/tttttt": "pages/template/oneImage/tttttt.js"
->>>>>>> 374bd78cb43bb6ebd225a52aa3259a8d1e117ce9
+  "/template/plant/Pachira": "pages/template/plant/Pachira.js"
 }

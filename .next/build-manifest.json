@@ -25,17 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-<<<<<<< HEAD
-    "/template/oneImage/top10cryptoExchanges2023": [
+    "/template/plant/Pachira": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/template/oneImage/top10cryptoExchanges2023.js"
-=======
-    "/template/oneImage/tttttt": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/template/oneImage/tttttt.js"
->>>>>>> 374bd78cb43bb6ebd225a52aa3259a8d1e117ce9
+      "static/chunks/pages/template/plant/Pachira.js"
     ]
   },
   "ampFirstPages": []

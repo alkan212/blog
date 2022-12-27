@@ -1,16 +1,16 @@
 // a changer !
-const description = "A review of the top 10 cryptocurrencies that are worth considering for investment at this time."
-const image = "https://images.unsplash.com/photo-1639825395303-94c8441b8b13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+const description = "The Kentia Palm, also known as the Kentia Palm Tree, is a beautiful and popular choice for indoor plants. It is native to Lord Howe Island, located off the coast of Australia. Known for its graceful, arching fronds and ability to thrive in low light conditions, the Kentia Palm is a great addition to any home or office. However, like any plant, it requires proper care to thrive. In this blog, we will go over some tips on how to take care of your Kentia Palm to help it grow and flourish."
+const image = "https://m.media-amazon.com/images/I/91rLW9EflZL._AC_SL1500_.jpg"
 
-const sujet = "Crypto"
-const titre = "Top 10 Crypto Exchanges On 2023"
+const sujet = "plant"
+const titre = "how to take care of the Kentia Palm"
 
-
+import { ImagesGrid } from '@/components/blog/ImagesGrid'
 import { CameraIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
-
+import { Img } from '@/components/blog/Img'
 import { Newsletter } from '@/components/Newsletter'
 import { Logo } from '@/images/logo.svg'
 import { Footer } from '@/components/Footer'
@@ -36,9 +36,8 @@ function Introduction(){
   return (
     <>
   
-      <p className="text-lg text-gray-500">
-        Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-        pellentesque. Blandit amet, sed aenean erat arcu morbi.
+      <p className="text-lg text-gray-500 mb-5">
+      The Kentia Palm, also known as the Kentia Palm Tree, is a beautiful and popular choice for indoor plants. It is native to Lord Howe Island, located off the coast of Australia. Known for its graceful, arching fronds and ability to thrive in low light conditions, the Kentia Palm is a great addition to any home or office. However, like any plant, it requires proper care to thrive. In this blog, we will go over some tips on how to take care of your Kentia Palm to help it grow and flourish.
       </p>
 
     </>
@@ -48,40 +47,58 @@ function Introduction(){
 function Contenu(){
   return (
     <>
+    <top>
+      <TopTitre>1.Light</TopTitre>
 
       <p>
-        Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-        pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+      Kentia Palms prefer indirect, bright light. Avoid placing them in direct sunlight, as this can cause the leaves to yellow or become damaged. A south or east-facing window is a good location for a Kentia Palm.
       </p>
-      <p>
-        Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-        fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
-      </p>
-      <p>
-        Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
-      </p>
-      <ul role="list">
-        <li>Quis elit egestas venenatis mattis dignissim.</li>
-        <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-        <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-      </ul>
-      <p>
-        Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-        velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-        egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
-      </p>
+    </top>
+    <top>
+      <TopTitre>2.Watering</TopTitre>
 
-      <h3>How we helped</h3>
       <p>
-        Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-        Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-        lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+      Kentia Palms do not require a lot of water, but it is important to keep the soil evenly moist. Water your Kentia Palm once a week, or whenever the top inch of soil feels dry to the touch. Be sure to avoid overwatering, as this can lead to root rot.
       </p>
-      <p>
-        Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-        pellentesque. Blandit amet, sed aenean erat arcu morbi.
-      </p>
+    </top>
+    <Top className="mt-10">
+        <div className='w-full h-full flex justify-between items-center'>
+          <div className='pr-10'>
+            <TopTitre>3.Keep your dog hydrated</TopTitre>
+            <p>
+            Provide your dog with clean, fresh water at all times. Some dogs may prefer to drink from a water bottle rather than a dish, so be sure to offer both options.
+            </p>
+          </div>
 
+        
+
+          <ImagesGrid col={1} size={6}>
+            <Img text={"CULTIVERS"} src={"https://m.media-amazon.com/images/I/71IR2xy3DBS._SL1500_.jpg"} href={"https://amzn.to/3C4kSio"} />
+          </ImagesGrid>
+        </div>
+      </Top>
+    <top>
+    <TopTitre>4.Temperature</TopTitre>
+    <p>
+    Kentia Palms prefer warm temperatures between 60-75°F (15-24°C). Avoid placing them in areas with drafts or extreme temperature fluctuations.
+    </p>
+    </top>
+    <top>
+    <TopTitre>5.Humidity</TopTitre>
+    <p>
+    Kentia Palms prefer humid environments. If the air in your home is dry, you can increase humidity by misting the leaves regularly or using a humidifier.
+    </p>
+    <ImagesGrid col={2} row={1} gap={4}>
+            <Img text={"Electric Essential Oil Diffuser,"} src={"https://m.media-amazon.com/images/I/71ANL49UzPL._AC_SL1500_.jpg"} href={"https://amzn.to/3I6fiQC"} />
+            <Img text={"Hair Sprayer"} src={"https://m.media-amazon.com/images/I/41JblRLJ-eL._AC_SL1500_.jpg"} href={"https://amzn.to/3I5PnZi"} />
+          </ImagesGrid>
+    </top>
+    <top>
+    <TopTitre>2.Watering</TopTitre>
+    <p>
+   Kentia Palms do not require a lot of water, but it is important to keep the soil evenly moist. Water your Kentia Palm once a week, or whenever the top inch of soil feels dry to the touch. Be sure to avoid overwatering, as this can lead to root rot.
+    </p>
+    </top>
     </>
   )
 }
@@ -147,22 +164,24 @@ export function Content() {
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                <Introduction />
+                  <a className='mt-5' target={"_blank"} href='https://amzn.to/3YUE5Ne'>
                   <img
                     className="rounded-lg object-cover object-center shadow-lg"
                     src={image}
                     alt=""
-                  />
+                  /></a>
                 </div>
-                <figcaption className="mt-3 flex text-sm text-gray-500">
-                  <CameraIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
-                  <span className="ml-2">Photograph by Marcus O’Leary</span>
-                </figcaption>
+
+                  
+<a className='underline underline-offset-2 text-indigo-600' target={"_blank"} href='https://amzn.to/3YUE5Ne'>
+Kentia Howea Palm Tree</a>
               </figure>
             </div>
           </div>
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
-              <Introduction />
+              
             </div>
             <div className="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
 
