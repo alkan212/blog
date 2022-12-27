@@ -1,6 +1,6 @@
 // a changer !
 const description = "A review of the top 10 cryptocurrencies that are worth considering for investment at this time."
-const image = "https://images.unsplash.com/photo-1639825395303-94c8441b8b13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+const image = "https://m.media-amazon.com/images/I/81dpyfABrEL._AC_SL1500_.jpg"
 
 const sujet = "Crypto"
 const titre = "Top 10 Crypto Exchanges On 2023"
@@ -112,7 +112,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{`Weknow - ${title}`}</title>
+        <title>{`Weknow - ${titre}`}</title>
         <meta
           name="description"
           content={description}
@@ -121,7 +121,7 @@ export default function Home() {
       <Header />
       <main>
         <Content />
-        <Blog />
+        <Blog sujet={sujet}/>
       </main>
       <Footer />
     </>
