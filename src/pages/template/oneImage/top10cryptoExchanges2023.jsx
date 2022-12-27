@@ -1,5 +1,4 @@
 // a changer !
-const titreOnglet = "Weknow - Top 10 Crypto Exchanges On 2023"
 const description = "A review of the top 10 cryptocurrencies that are worth considering for investment at this time."
 const image = "https://images.unsplash.com/photo-1639825395303-94c8441b8b13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
 
@@ -38,7 +37,7 @@ function Introduction(){
     <>
       <div>
         <h2 className="font-semibold leading-6 text-indigo-600">{sujet}</h2>
-        <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">{titre}  </h3>
+        <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">{titre}</h3>
         <p className="mt-8 text-lg text-gray-500">
   
         </p>
@@ -113,7 +112,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{titreOnglet}</title>
+        <title>{`Weknow - ${title}`}</title>
         <meta
           name="description"
           content={description}
