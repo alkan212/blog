@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+<<<<<<< HEAD
   "/template/top/crypto/perpetual/exchange_perpetual_3": "pages/template/top/crypto/perpetual/exchange_perpetual_3.js"
+=======
+  "/template/advice/howtoprotectyourcryptocurrency": "pages/template/advice/howtoprotectyourcryptocurrency.js"
+>>>>>>> d3fd44c081e1575cb37254eec937291110bd70dd
 }

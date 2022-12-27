@@ -25,10 +25,17 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+<<<<<<< HEAD
     "/template/top/crypto/perpetual/exchange_perpetual_3": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/template/top/crypto/perpetual/exchange_perpetual_3.js"
+=======
+    "/template/advice/howtoprotectyourcryptocurrency": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/template/advice/howtoprotectyourcryptocurrency.js"
+>>>>>>> d3fd44c081e1575cb37254eec937291110bd70dd
     ]
   },
   "ampFirstPages": []
