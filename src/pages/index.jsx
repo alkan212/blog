@@ -4,7 +4,7 @@ import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
-import { Blog } from '@/components/Blog'
+import { BlogList } from '@/components/BlogList'
 import { UserHeader } from '@/components/UserHeader'
 import data from "../blogList.js"
 
@@ -19,9 +19,9 @@ for (let i = 0; i < eles_key.length; i++) {
   let data = eles[element]
 
   if(element == "crypto"){
-    blogSujet.push(<Blog key={element} sujet={element} data={data} ne={true} />);
+    blogSujet.push(<BlogList key={element} sujet={element} data={data} ne={true} />);
   }else{
-    blogSujet.push(<Blog key={element} sujet={element} data={data} />);
+    blogSujet.push(<BlogList key={element} sujet={element} data={data} />);
   }
   
 }
