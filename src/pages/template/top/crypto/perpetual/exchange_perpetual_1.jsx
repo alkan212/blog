@@ -30,9 +30,9 @@ import Link from 'next/link'
 
 const color = "indigo"
 
-const exchange_name = "Binance"
-const exchange_link = "https://accounts.binance.com/en/register?ref=64172567"
-const exchange_img = "https://images.unsplash.com/photo-1614787296891-d1b2b1aced36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+const exchange_name = "Perpetual"
+const exchange_link = "https://app.perp.com?code=weknow"
+const exchange_img = "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80"
 
 function Introduction(){
   return (
@@ -64,7 +64,7 @@ function Contenu(){
   <h2>What is Margin Trading?</h2>
 <p>Margin trading allows traders to borrow funds from the exchange in order to increase their purchasing power and potentially increase their returns. It can be a useful tool for experienced traders who are looking to take on higher risk in order to potentially earn higher rewards.</p>
 <h2>How to Use Binance's Margin Trading Feature</h2>
-<p>First, you'll need to have a <strong>Binance account</strong> and be registered as a margin trader. If you don't already have an account, you can sign up for one <a href="https://accounts.binance.com/en/register?ref=64172567">here</a>. Once you've registered, you'll need to pass a risk assessment in order to be eligible to trade on margin.</p>
+<p>First, you'll need to have a <strong>Binance account</strong> and be registered as a margin trader. If you don't already have an account, you can sign up for one <a href="https://app.perp.com?code=weknow">here</a>. Once you've registered, you'll need to pass a risk assessment in order to be eligible to trade on margin.</p>
 <p>To start margin trading on Binance, simply navigate to the margin trading section of the platform and select the asset you'd like to trade. You'll be able to see the available margin ratios and borrow limits for each asset. From there, you can place a margin trade in the same way you would a regular trade, with the added option to specify the amount of margin you'd like to use.</p>
 <p>It's important to keep in mind that margin trading carries higher risk, as you are borrowing funds and potentially incurring debt. It's essential to carefully consider the risks and only trade on margin if you are confident in your ability to manage those risks.</p>
 <h2>Conclusion</h2>
