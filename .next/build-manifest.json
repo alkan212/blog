@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/template/plant/Pachira": [
+    "/template/plant/croton": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/template/plant/Pachira.js"
+      "static/chunks/pages/template/plant/croton.js"
     ]
   },
   "ampFirstPages": []
