@@ -2,5 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/template/plant/croton": "pages/template/plant/croton.js"
+  "/template/plant/MonstreraDeliciosa": "pages/template/plant/MonstreraDeliciosa.js"
 }
